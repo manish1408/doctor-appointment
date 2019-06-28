@@ -1,0 +1,71 @@
+page-home {
+    .toolbar-title {
+        display: flex;
+        align-items: center;
+        img {
+            width: 90px;
+        }
+        span {
+            display: block;
+            margin-left: auto;
+            text-align: right;
+            ion-select {
+                max-width: 100% !important;
+                margin: 0 !important;
+                padding: 0;
+                font-size: 1.5rem;
+                .select-icon {
+                    width: 16px;
+                    .select-icon-inner {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .book-now {
+        padding: 0 3rem;
+        margin-bottom: 2rem;
+        .button {
+            width: 100%;
+            box-shadow: 0px 10px 20px rgba(34, 193, 0, 0.13);
+        }
+    }
+    .item {
+        border: none !important;
+        margin-bottom: .5rem;
+        padding: 0 3rem;
+        img {
+            width: 22px;
+            margin-top: -6px !important;
+        }
+        .item-inner {
+            border: none !important;
+            margin-left: 10px !important;
+            span {
+                color: #3d3d3d;
+                font-size: 1.5rem;
+                font-weight: 600;
+                small {
+                    display: block;
+                    margin-top: 3px;
+                    color: #898989;
+                    font-weight: 500;
+                }
+            }
+            ion-icon {
+                font-size: 1.9rem;
+                color: #898989;
+                margin: 0;
+                top: -2px;
+                position: relative;
+            }
+        }
+    }
+}
+
+.popover-content {
+    ion-radio.radio {
+        opacity: 0 !important;
+    }
+}
