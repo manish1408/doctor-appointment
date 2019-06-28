@@ -4,6 +4,7 @@ import { NavController } from 'ionic-angular';
 import { FinddoctorPage } from '../finddoctor/finddoctor';
 import { LabPage } from '../lab/lab';
 import { MedicalPage } from '../medical/medical';
+import { AppointmentPage } from '../appointment/appointment';
 
 
 @Component({
@@ -16,7 +17,7 @@ location: string = "n1";
   constructor(public navCtrl: NavController) {
 
   }
-  
+
    finddoctor(){
     this.navCtrl.push(FinddoctorPage);
     }
@@ -26,5 +27,7 @@ location: string = "n1";
     medical(){
     this.navCtrl.push(MedicalPage);
     }
-
+    bookAppointment(){
+    this.navCtrl.push(AppointmentPage);
+    }
 }

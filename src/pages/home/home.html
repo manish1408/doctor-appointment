@@ -16,7 +16,7 @@
 
 <ion-content>
     <img src="assets/imgs/home-header.png">
-    <div class="book-now"><button ion-button full class="btn success">Book an appointment Now</button></div>
+    <div class="book-now"><button (click)="bookAppointment()" ion-button full class="btn success">Book an appointment Now</button></div>
     <div class="">
         <ion-list>
             <ion-item (click)="finddoctor()">
@@ -27,7 +27,7 @@
                 </span>
                 <ion-icon name="ios-arrow-forward" item-end></ion-icon>
             </ion-item>
-            <ion-item (click)="lab()">
+            <!-- <ion-item (click)="lab()">
                 <img src="assets/imgs/ic_scan.png" item-start>
                 <span>
                     Book scan & test now
@@ -35,12 +35,12 @@
                 </span>
 
                 <ion-icon name="ios-arrow-forward" item-end></ion-icon>
-            </ion-item>
+            </ion-item> -->
             <ion-item (click)="medical()">
                 <img src="assets/imgs/ic_medicals.png" item-start>
                 <span>
-                    Find medicals near you
-                    <small>Get a quock list of medicals available near you</small>
+                    Call doctor or hospital
+                    <small>Get a quick list of doctors available near you</small>
                 </span>
 
                 <ion-icon name="ios-arrow-forward" item-end></ion-icon>
