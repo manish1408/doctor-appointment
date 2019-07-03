@@ -23,6 +23,8 @@ export class SigninPage {
     
     location(){
     this.navCtrl.setRoot(HomePage);
+    this.navCtrl.push(TabsPage);
+
     }
 
 }

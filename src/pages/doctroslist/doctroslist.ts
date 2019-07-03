@@ -3,7 +3,9 @@ import { NavController, ModalController } from 'ionic-angular';
 
 import { MapPage } from '../map/map';
 import { FilterPage } from '../filter/filter';
-import { DoctorprofilePage } from '../doctorprofile/doctorprofile';
+// import { DoctorprofilePage } from '../doctorprofile/doctorprofile';
+import { AppointmentbookPage } from '../appointmentbook/appointmentbook';
+
 @Component({
   selector: 'page-doctroslist',
   templateUrl: 'doctroslist.html'
@@ -27,7 +29,8 @@ category: string = "a1";
   }
   
    doctorprofile(){
-    this.navCtrl.push(DoctorprofilePage);
+    this.navCtrl.push(AppointmentbookPage);
+    // this.navCtrl.push(DoctorprofilePage);
     }
 
 

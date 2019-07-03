@@ -27,7 +27,7 @@
     <div [ngSwitch]="login" class="difault-form bg-light" padding>
         <ion-list *ngSwitchCase="'signin'">
             <ion-item class="bg-light">
-                <ion-input type="number" placeholder="Phone Number"></ion-input>
+                <ion-input type="number" placeholder="Email"></ion-input>
             </ion-item>
             <ion-item class="bg-light">
                 <ion-input type="password" placeholder="Password"></ion-input>
@@ -36,20 +36,20 @@
             <small class="password" (click)="forgotpassword()">Forgot?</small>
             <br>
             <button ion-button full class="btn danger" (click)="location()">Sign in</button>
-            <ion-row class="btn-grup">
+            <!-- <ion-row class="btn-grup">
                 <ion-col col-6 text-center>New user?</ion-col>
                 <ion-col col-6><button ion-button full class="btn text-danger">Register Now</button></ion-col>
-            </ion-row>
+            </ion-row> -->
         </ion-list>
         <ion-list *ngSwitchCase="'signup'">
             <ion-item class="bg-light">
-                <ion-input type="number" placeholder="Phone Number"></ion-input>
+                <ion-input type="number" placeholder="Email"></ion-input>
             </ion-item>
             <ion-item class="bg-light">
                 <ion-input type="text" placeholder="Full Name"></ion-input>
             </ion-item>
             <ion-item class="bg-light">
-                <ion-input type="text" placeholder="Create Password"></ion-input>
+                <ion-input type="text" placeholder="Password"></ion-input>
             </ion-item>
             <br>
             <button ion-button full class="btn danger" (click)="location()">Sign up</button>

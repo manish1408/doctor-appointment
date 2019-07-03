@@ -25704,7 +25704,7 @@ strong {
 }
 
 .text-danger {
-  color: #d71e1e !important;
+  color: #ed1c24 !important;
 }
 
 .text-white {
@@ -25736,12 +25736,12 @@ strong {
 }
 
 .btn.danger {
-  background: #d71e1e !important;
+  background: #ed1c24 !important;
 }
 
 .btn.text-danger {
   background: #fff !important;
-  color: #d71e1e !important;
+  color: #ed1c24 !important;
 }
 
 .btn.success {
@@ -25796,7 +25796,7 @@ strong {
 }
 
 .header .toolbar-background {
-  background: #d71e1e;
+  background: #ed1c24;
 }
 
 .header .toolbar-title {
@@ -25818,13 +25818,13 @@ strong {
 }
 
 .tabbar .tab-button[aria-selected=true] {
-  color: #d71e1e;
+  color: #ed1c24;
   font-size: 1.8rem;
-  border-top: 2px solid #d71e1e;
+  border-top: 2px solid #ed1c24;
 }
 
 .tabbar .tab-button[aria-selected=true] .tab-button-icon {
-  color: #d71e1e;
+  color: #ed1c24;
   font-size: 2rem;
 }
 
@@ -25939,11 +25939,11 @@ page-addfeedback ion-header .card {
   margin: 0;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  background: #d71e1e;
+  background: #ed1c24;
 }
 
 page-addfeedback ion-header .card .item {
-  background: #d71e1e;
+  background: #ed1c24;
   padding-bottom: 5px;
   padding-top: 5px;
 }
@@ -26098,11 +26098,11 @@ page-appointmentbook ion-header .card {
   margin: 0;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  background: #d71e1e;
+  background: #ed1c24;
 }
 
 page-appointmentbook ion-header .card .item {
-  background: #d71e1e;
+  background: #ed1c24;
   padding-bottom: 5px;
   padding-top: 5px;
 }
@@ -26259,7 +26259,7 @@ page-appointmentbook .calander .calander-row .day::after {
 }
 
 page-appointmentbook .calander .calander-row .day.active::after {
-  background: #d71e1e;
+  background: #ed1c24;
 }
 
 page-appointmentbook .icon-calander {
@@ -26412,6 +26412,138 @@ page-blogs .card ion-card-content .blog-text h2 {
   margin-bottom: 1rem;
 }
 
+page-chatDoctroslist .toolbar-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+page-chatDoctroslist .toolbar-title span.location {
+  display: block;
+  margin-left: auto;
+  position: relative;
+  text-align: right;
+}
+
+page-chatDoctroslist .toolbar-title span.location ion-select {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0;
+  font-size: 1.5rem;
+}
+
+page-chatDoctroslist .toolbar-title .select-icon {
+  width: 16px;
+}
+
+page-chatDoctroslist .toolbar-title .select-icon .select-icon-inner {
+  color: #fff;
+}
+
+page-chatDoctroslist .card {
+  width: 100%;
+  margin: 10px 0;
+}
+
+page-chatDoctroslist .card .item .label h2 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  width: calc(100% - 85px);
+}
+
+page-chatDoctroslist .card .item .label p {
+  font-size: 1.2rem;
+  width: calc(100% - 85px);
+  color: #979797;
+}
+
+page-chatDoctroslist .card .item .label .item-button {
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  padding: 1px 25px;
+  height: 28px !important;
+}
+
+page-chatDoctroslist .card ion-card-content {
+  color: #979797;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+page-chatDoctroslist .card ion-card-content .img-container {
+  width: calc(100% + 16px);
+  margin-top: 10px;
+  overflow: hidden;
+  overflow-x: visible;
+}
+
+page-chatDoctroslist .card ion-card-content .img-container .imges-row img {
+  width: 90px;
+  display: block;
+  float: left;
+  margin-right: 3px;
+  height: 60px;
+}
+
+page-chatDoctroslist .card .about-row {
+  padding: 0;
+  margin: -3px 16px 10px;
+  font-size: 1rem;
+  white-space: nowrap;
+  color: #979797;
+  font-weight: 300;
+}
+
+page-chatDoctroslist .card .about-row .col {
+  padding: 5px 0;
+}
+
+page-chatDoctroslist .card .about-row strong {
+  color: #000;
+  margin-left: 3px;
+}
+
+page-chatDoctroslist .card .about-row ion-icon {
+  color: #dddddd;
+  margin-right: -1px;
+}
+
+page-chatDoctroslist .card .about-row ion-icon.active {
+  color: #ffba00;
+}
+
+page-chatDoctroslist .filter {
+  background: #fff;
+  font-size: 1.2rem;
+  font-weight: 200;
+  white-space: nowrap;
+}
+
+page-chatDoctroslist .filter .text-danger {
+  font-weight: 500;
+}
+
+page-chatDoctroslist .filter .text-danger ion-icon {
+  margin-right: 5px;
+}
+
+page-chatDoctroslist .filter .col {
+  padding: 0;
+  color: #aba9a9;
+}
+
+page-chatDoctroslist .scroll-zoom-wrapper img {
+  display: inline;
+  width: 75px;
+  height: 60px;
+}
+
 page-chats .card {
   width: 100%;
   margin: 0;
@@ -26501,7 +26633,7 @@ page-chatscreen p.send {
 }
 
 page-chatscreen p.receve {
-  background: #d71e1e;
+  background: #ed1c24;
   color: #fff;
   border-radius: 0px 20px 20px 20px;
   float: left;
@@ -26669,14 +26801,14 @@ page-doctorprofile .segment-button {
 }
 
 page-doctorprofile .segment-button.segment-activated {
-  color: #d71e1e !important;
+  color: #ed1c24 !important;
   position: relative;
 }
 
 page-doctorprofile .segment-button.segment-activated::after {
   content: '';
   position: absolute;
-  background: #d71e1e;
+  background: #ed1c24;
   width: 100px;
   height: 3px;
   border-radius: 5px;
@@ -26818,7 +26950,7 @@ page-doctorprofile .map-location .profile-img {
   position: absolute;
   width: 50px;
   height: 50px;
-  border: 4px solid #d71e1e;
+  border: 4px solid #ed1c24;
   border-radius: 50%;
   z-index: 1;
 }
@@ -27910,7 +28042,7 @@ page-map .profile .profile-img {
   position: absolute;
   width: 60px;
   height: 60px;
-  border: 5px solid #d71e1e;
+  border: 5px solid #ed1c24;
   border-radius: 50%;
   z-index: 1;
 }
@@ -28365,7 +28497,7 @@ page-profile .profile-img ion-icon {
   width: 30px;
   height: 30px;
   position: absolute;
-  background: #d71e1e;
+  background: #ed1c24;
   top: 0;
   font-size: 1.4rem;
   right: 0;
@@ -28497,14 +28629,14 @@ page-signin .segment-button {
 }
 
 page-signin .segment-button.segment-activated {
-  color: #d71e1e !important;
+  color: #ed1c24 !important;
   position: relative;
 }
 
 page-signin .segment-button.segment-activated::after {
   content: '';
   position: absolute;
-  background: #d71e1e;
+  background: #ed1c24;
   width: 50px;
   height: 4px;
   border-radius: 5px;
@@ -28553,7 +28685,7 @@ page-signin .difault-form .list .item-block .item-inner {
 page-signin .difault-form .password {
   position: absolute;
   z-index: 99;
-  color: #d71e1e;
+  color: #ed1c24;
   right: 45px;
   margin-top: -3rem;
   font-size: 1.3rem;
@@ -28644,7 +28776,7 @@ page-specilities p.text-danger {
 }
 
 page-terms .defult-tab {
-  background: #d71e1e;
+  background: #ed1c24;
 }
 
 page-terms .defult-tab .text-white {

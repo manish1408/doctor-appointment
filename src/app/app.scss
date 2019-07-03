@@ -24,7 +24,7 @@ strong {
 }
 
 .text-danger {
-    color: #d71e1e !important;
+    color: #ed1c24 !important;
 }
 
 .text-white {
@@ -53,11 +53,11 @@ strong {
     text-transform: none;
     height: 4.4rem !important;
     &.danger {
-        background: #d71e1e !important;
+        background: #ed1c24 !important;
     }
     &.text-danger {
         background: #fff !important;
-        color: #d71e1e !important;
+        color: #ed1c24 !important;
     }
     &.success {
         background: #25a628 !important;
@@ -107,7 +107,7 @@ strong {
 
 .header {
     .toolbar-background {
-        background: #d71e1e;
+        background: #ed1c24;
     }
     .toolbar-title {
         color: #fff;
@@ -124,11 +124,11 @@ strong {
         color: #d3d3d3;
         font-size: 1.6rem;
         &[aria-selected=true] {
-            color: #d71e1e;
+            color: #ed1c24;
             font-size: 1.8rem;
-            border-top: 2px solid #d71e1e;
+            border-top: 2px solid #ed1c24;
             .tab-button-icon {
-                color: #d71e1e;
+                color: #ed1c24;
                 font-size: 2rem;
             }
         }

@@ -52,10 +52,31 @@
                 <ion-input type="text" placeholder="Full Name"></ion-input>
             </ion-item>
             <ion-item class="bg-light">
-                <ion-input type="password" placeholder="Phone Number"></ion-input>
+                <ion-input type="text" placeholder="Address"></ion-input>
+            </ion-item>
+            <ion-item class="bg-light">
+                <ion-input type="text" placeholder="Phone Number"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>Illness</ion-label>
+                <ion-select [(ngModel)]="toppings" multiple="true" cancelText="Cancel" okText="Save">
+                    <ion-option value="bacon" selected="true">Bacon</ion-option>
+                    <ion-option value="olives">Black Olives</ion-option>
+                    <ion-option value="xcheese" selected="true">Extra Cheese</ion-option>
+                    <ion-option value="peppers">Green Peppers</ion-option>
+                    <ion-option value="mushrooms">Mushrooms</ion-option>
+                    <ion-option value="onions">Onions</ion-option>
+                    <ion-option value="pepperoni">Pepperoni</ion-option>
+                    <ion-option value="pineapple">Pineapple</ion-option>
+                    <ion-option value="sausage">Sausage</ion-option>
+                    <ion-option value="Spinach">Spinach</ion-option>
+                </ion-select>
+            </ion-item>
+            <ion-item class="bg-light">
+                <ion-input type="text" placeholder="Message to Doctor"></ion-input>
             </ion-item>
             <br>
-            <button ion-button full class="btn success fixed" (click)="chatwithdoctor()">Confirm Appointment</button>
+            <button ion-button full class="btn success fixed">Confirm Appointment</button>
         </div>
     </div>
 </ion-content>

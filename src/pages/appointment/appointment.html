@@ -56,7 +56,7 @@
     </ion-list>
     <p class="heading">Past Appointments</p>
     <ion-list class="doctor-list">
-        <ion-row class="bg-white">
+        <ion-row class="bg-white" (click)="appointmentdetail()">
             <ion-col text-center class="date">
                 <small>WED</small>
                 <strong class="text-danger">12</strong>
@@ -78,7 +78,7 @@
                 </ion-card>
             </ion-col>
         </ion-row>
-        <ion-row class="bg-white">
+        <ion-row class="bg-white" (click)="appointmentdetail()">
             <ion-col text-center class="date">
                 <small>WED</small>
                 <strong class="text-danger">12</strong>

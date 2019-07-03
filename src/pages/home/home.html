@@ -2,21 +2,24 @@
     <ion-navbar>
         <ion-title>
             <img src="assets/imgs/header-logo.png">
-            <span><small margin-right>Location</small>
-            <ion-select [(ngModel)]="location" interface="popover" class="location">
-                <small>Location</small>
-                <ion-option value="n1">Wallington</ion-option>
-                <ion-option value="n2">Nerobi</ion-option>
-                <ion-option value="n3">Central Park</ion-option>
-              </ion-select>
-            </span>
+            <!-- <span><small margin-right>All Navigation</small>
+                <ion-select [(ngModel)]="location" (ionChange)="nav($event)" interface="popover" class="location">
+                    <small>Location</small>
+                    <ion-option value="ProfilePage">Profile Page</ion-option>
+                    <ion-option value="MyfeedbacksPage">My Feedbacks Page</ion-option>
+                    <ion-option value="HelpPage">Help</ion-option>
+                    <ion-option value="SettingsPag">Settings</ion-option>
+                </ion-select>
+            </span> -->
         </ion-title>
     </ion-navbar>
 </ion-header>
 
+
 <ion-content>
     <img src="assets/imgs/home-header.png">
-    <div class="book-now"><button (click)="bookAppointment()" ion-button full class="btn success">Book an appointment Now</button></div>
+    <div class="book-now"><button (click)="bookAppointment()" ion-button full class="btn success">Book an appointment
+            Now</button></div>
     <div class="">
         <ion-list>
             <ion-item (click)="finddoctor()">
@@ -27,15 +30,15 @@
                 </span>
                 <ion-icon name="ios-arrow-forward" item-end></ion-icon>
             </ion-item>
-            <!-- <ion-item (click)="lab()">
+            <ion-item (click)="lab()">
                 <img src="assets/imgs/ic_scan.png" item-start>
                 <span>
-                    Book scan & test now
-                    <small>Find trusted labs near your area</small>
+                    Doctors Feedback
+                    <small>List of Feedbacks given to you</small>
                 </span>
 
                 <ion-icon name="ios-arrow-forward" item-end></ion-icon>
-            </ion-item> -->
+            </ion-item>
             <ion-item (click)="medical()">
                 <img src="assets/imgs/ic_medicals.png" item-start>
                 <span>

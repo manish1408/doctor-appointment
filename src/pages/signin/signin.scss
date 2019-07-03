@@ -6,12 +6,12 @@ page-signin {
         font-weight: 600 !important;
         text-transform: none !important;
         &.segment-activated {
-            color: #d71e1e !important;
+            color: #ed1c24 !important;
             position: relative;
             &::after {
                 content: '';
                 position: absolute;
-                background: #d71e1e;
+                background: #ed1c24;
                 width: 50px;
                 height: 4px;
                 border-radius: 5px;
@@ -56,7 +56,7 @@ page-signin {
         .password {
             position: absolute;
             z-index: 99;
-            color: #d71e1e;
+            color: #ed1c24;
             right: 45px;
             margin-top: -3rem;
             font-size: 1.3rem;

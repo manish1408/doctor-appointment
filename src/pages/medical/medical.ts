@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, ModalController } from 'ionic-angular';
 
 import { MedicalmapPage } from '../medicalmap/medicalmap';
-import { MedicaldetailPage } from '../medicaldetail/medicaldetail';
+// import { MedicaldetailPage } from '../medicaldetail/medicaldetail';
 
 @Component({
   selector: 'page-medical',
@@ -22,7 +22,8 @@ location: string = "n1";
   }
     
      medicaldetail(){
-    this.navCtrl.push(MedicaldetailPage);
+    // this.navCtrl.push(MedicaldetailPage);
+    alert("Calling 9922533180");
     }
 
 }

@@ -14,6 +14,7 @@ import { LocationPage } from '../pages/location/location';
 import { FinddoctorPage } from '../pages/finddoctor/finddoctor';
 import { SpecilitiesPage } from '../pages/specilities/specilities';
 import { DoctroslistPage } from '../pages/doctroslist/doctroslist';
+import { ChatDoctorListPage } from '../pages/chatDoctorList/chatDoctorList';
 import { MapPage } from '../pages/map/map';
 import { FilterPage } from '../pages/filter/filter';
 import { DoctorprofilePage } from '../pages/doctorprofile/doctorprofile';
@@ -77,6 +78,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyfeedbacksPage,
     BlogsPage,
     ReadblogPage,
+    ChatDoctorListPage,
     AboutusPage,
     TermsPage,
     HelpPage,
@@ -102,6 +104,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SpecilitiesPage,
     DoctroslistPage,
     AppointmentbookPage,
+    ChatDoctorListPage,
     MapPage,
     FilterPage,
     DoctorprofilePage,
