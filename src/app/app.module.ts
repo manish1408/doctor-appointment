@@ -2,6 +2,7 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
+import { IonicSelectableModule } from 'ionic-selectable';
 
 import { AccountPage } from '../pages/account/account';
 import { ChatsPage } from '../pages/chats/chats';
@@ -83,10 +84,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TermsPage,
     HelpPage,
     SettingsPage
-    
+
   ],
   imports: [
     BrowserModule,
+    IonicSelectableModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -128,7 +130,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     TermsPage,
     HelpPage,
     SettingsPage
-    
+
   ],
   providers: [
     StatusBar,

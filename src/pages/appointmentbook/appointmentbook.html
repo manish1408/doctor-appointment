@@ -1,10 +1,10 @@
 <ion-header>
-    <ion-navbar>
-        <ion-title>
-            Select Date & Time
-        </ion-title>
-    </ion-navbar>
-    <!-- <ion-card>
+	<ion-navbar>
+		<ion-title>
+			Select Date & Time
+		</ion-title>
+	</ion-navbar>
+	<!-- <ion-card>
         <ion-item>
             <ion-avatar item-start>
                 <img src="assets/imgs/profile1.png">
@@ -16,10 +16,10 @@
 </ion-header>
 
 <ion-content class="bg-light">
-    <div class="calender-container">
-        <div class="calander">
-            <div class="calander-row">
-                <div class="day active"><span>MON</span>12</div>
+	<div class="calender-container">
+		<div class="calander">
+			<div class="calander-row">
+				<div class="day active"><span>MON</span>12</div>
                 <div class="day"><span>TUE</span>13</div>
                 <div class="day"><span>WED</span>14</div>
                 <div class="day"><span>THU</span>15</div>
@@ -58,6 +58,18 @@
                 <ion-input type="text" placeholder="Phone Number"></ion-input>
             </ion-item>
             <ion-item>
+                <ion-label>Reason for Request</ion-label>
+                <ionic-selectable
+                    item-content
+                    [(ngModel)]="port"
+                    [items]="ports"
+                    itemValueField="id"
+                    itemTextField="name"
+                    [canSearch]="true"
+                    (onChange)="portChange($event)">
+                </ionic-selectable>
+            </ion-item>
+            <!-- <ion-item>
                 <ion-label>Illness</ion-label>
                 <ion-select [(ngModel)]="toppings" multiple="true" cancelText="Cancel" okText="Save">
                     <ion-option value="bacon" selected="true">Bacon</ion-option>
@@ -71,12 +83,12 @@
                     <ion-option value="sausage">Sausage</ion-option>
                     <ion-option value="Spinach">Spinach</ion-option>
                 </ion-select>
-            </ion-item>
+            </ion-item> -->
             <ion-item class="bg-light">
                 <ion-input type="text" placeholder="Message to Doctor"></ion-input>
             </ion-item>
              <ion-item>
-            <button ion-button full class="btn success fixed">Confirm Appointment</button>
+            <button ion-button full class="btn success">Confirm Appointment</button>
              </ion-item>
         </div>
     </div>

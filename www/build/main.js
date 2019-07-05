@@ -8,7 +8,7 @@ webpackJsonp([0],{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__account_account__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__appointment_appointment__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__appointment_appointment__ = __webpack_require__(219);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -51,10 +51,10 @@ var TabsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__profile_profile__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__myfeedbacks_myfeedbacks__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__blogs_blogs__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__aboutus_aboutus__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__terms_terms__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__help_help__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__blogs_blogs__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__aboutus_aboutus__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__terms_terms__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__help_help__ = __webpack_require__(211);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__settings_settings__ = __webpack_require__(104);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -101,9 +101,9 @@ var AccountPage = /** @class */ (function () {
     };
     AccountPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-account',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/account/account.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            My Accounts\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n\n    <ion-card (click)="profile()">\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Emili Williamson</h2>\n            <p>Complete your profile</p>\n            <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n    </ion-card>\n\n    <div class="">\n        <ion-list>\n            <ion-item (click)="myfeedbacks()">\n                <ion-icon name="md-thumbs-up" item-start class="text-danger"></ion-icon>\n                <span>\n                    Doctors Feedbacks\n                    <small>List of doctors Feedbacks</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <!-- <ion-item (click)="blogs()">\n                <ion-icon name="md-paper" item-start class="text-danger"></ion-icon>\n                <span>\n                    Health Blogs\n                    <small>Real articals & blogs about health & fitness</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item> -->\n            <!-- <ion-item (click)="aboutus()">\n                <ion-icon name="md-information-circle" item-start class="text-danger"></ion-icon>\n                <span>\n                    About DotoHub\n                    <small>Company details abput DotoHub</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item> -->\n            <ion-item (click)="terms()">\n                <ion-icon name="md-clipboard" item-start class="text-danger"></ion-icon>\n                <span>Terms & Condition\n                <small>Terms condition & privacy policy of DotoHub</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <!-- <ion-item (click)="help()">\n                <ion-icon name="md-mail" item-start class="text-danger"></ion-icon>\n                <span>Help & Support\n                <small>Let us know your query or any suggetions</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item> -->\n            <!-- <ion-item>\n                <ion-icon name="md-share" item-start class="text-danger"></ion-icon>\n                <span>Share D&C App\n                <small>Share App with your friends & family members</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item> -->\n            <!-- <ion-item (click)="setting()">\n                <ion-icon name="md-settings" item-start class="text-danger"></ion-icon>\n                <span>Setting\n                <small>Share App with your friends & family members</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item> -->\n        </ion-list>\n    </div>\n\n\n    <ion-list>\n\n\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/account/account.html"*/
+            selector: 'page-account',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/account/account.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            My Accounts\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n\n    <ion-card (click)="profile()">\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Emili Williamson</h2>\n            <p>Complete your profile</p>\n            <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n        </ion-item>\n    </ion-card>\n\n    <div class="">\n        <ion-list>\n            <ion-item (click)="myfeedbacks()">\n                <ion-icon name="md-thumbs-up" item-start class="text-danger"></ion-icon>\n                <span>\n                    My Profile\n                    <small>Your account Details</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item (click)="myfeedbacks()">\n                <ion-icon name="md-thumbs-up" item-start class="text-danger"></ion-icon>\n                <span>\n                   Health history\n                    <small>Records of your health</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item (click)="myfeedbacks()">\n                <ion-icon name="md-thumbs-up" item-start class="text-danger"></ion-icon>\n                <span>\n                    Doctors Feedbacks\n                    <small>List of doctors Feedbacks</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item (click)="myfeedbacks()">\n                <ion-icon name="md-thumbs-up" item-start class="text-danger"></ion-icon>\n                <span>\n                    Booking History\n                    <small>Your appointment History</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n\n            <!-- <ion-item (click)="blogs()">\n                <ion-icon name="md-paper" item-start class="text-danger"></ion-icon>\n                <span>\n                    Health Blogs\n                    <small>Real articals & blogs about health & fitness</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item> -->\n            <!-- <ion-item (click)="aboutus()">\n                <ion-icon name="md-information-circle" item-start class="text-danger"></ion-icon>\n                <span>\n                    About DotoHub\n                    <small>Company details abput DotoHub</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item> -->\n            <!-- <ion-item (click)="terms()">\n                <ion-icon name="md-clipboard" item-start class="text-danger"></ion-icon>\n                <span>Terms & Condition\n                <small>Terms condition & privacy policy of DotoHub</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item> -->\n            <!-- <ion-item (click)="help()">\n                <ion-icon name="md-mail" item-start class="text-danger"></ion-icon>\n                <span>Help & Support\n                <small>Let us know your query or any suggetions</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item> -->\n            <!-- <ion-item>\n                <ion-icon name="md-share" item-start class="text-danger"></ion-icon>\n                <span>Share D&C App\n                <small>Share App with your friends & family members</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item> -->\n            <!-- <ion-item (click)="setting()">\n                <ion-icon name="md-settings" item-start class="text-danger"></ion-icon>\n                <span>Setting\n                <small>Share App with your friends & family members</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item> -->\n        </ion-list>\n    </div>\n\n\n    <ion-list>\n\n\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/account/account.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], AccountPage);
     return AccountPage;
 }());
@@ -138,7 +138,7 @@ var ProfilePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-profile',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/profile/profile.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            My Profile\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <div class="profile-img">\n        <img src="assets/imgs/profile1.png">\n        <ion-icon name="md-camera"></ion-icon>\n    </div>\n    <ion-item-group>\n        <ion-item-divider>\n            <ion-label>Full Name</ion-label>\n            <ion-input type="text" value="Emili Williams" readonly></ion-input>\n        </ion-item-divider>\n        <ion-item-divider>\n            <ion-label>Email ID</ion-label>\n            <ion-input type="text" value="Emiliwilliams@mail.com" readonly></ion-input>\n        </ion-item-divider>\n        <ion-item-divider>\n            <ion-label>Gender</ion-label>\n            <ion-input type="text" value="Female" readonly></ion-input>\n        </ion-item-divider>\n        <ion-item-divider>\n            <ion-label>Date Of Birth</ion-label>\n            <ion-input type="text" value="25 june 1989" readonly></ion-input>\n        </ion-item-divider>\n        <ion-item-divider>\n            <ion-label>Height</ion-label>\n            <ion-input type="text" value="5\'11 ft" readonly></ion-input>\n        </ion-item-divider>\n        <ion-item-divider>\n            <ion-label>Weight</ion-label>\n            <ion-input type="text" value="62 kgs(136Ibs)" readonly></ion-input>\n        </ion-item-divider>\n        <ion-item-divider>\n            <ion-label>Blood Group</ion-label>\n            <ion-input type="text" value="A+" readonly></ion-input>\n        </ion-item-divider>\n        <ion-item-divider>\n            <ion-label>Location</ion-label>\n            <ion-input type="text" value="Center Park, New York" readonly></ion-input>\n        </ion-item-divider>\n        <ion-item-divider>\n            <button class="btn success" full ion-button>Update Profile</button>\n        </ion-item-divider>\n    </ion-item-group>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/profile/profile.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], ProfilePage);
     return ProfilePage;
 }());
@@ -173,7 +173,7 @@ var MyfeedbacksPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-myfeedbacks',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/myfeedbacks/myfeedbacks.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Doctors Feedbacks\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2><span>From</span> Josephan Williamson</h2>\n            <p><span>Visited For</span> Cardiac Surgeon</p>\n            <!-- <div class="rate">\n                <strong>4.5</strong>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <span>20 Dec 2017</span>\n            </div> -->\n        </ion-item>\n        <ion-card-content>\n            Components allow you to quickly construct an interface for your app. Ionic comes with a number of components, including modals, popups, and cards.\n        </ion-card-content>\n    </ion-card>\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile2.png">\n            </ion-avatar>\n            <h2><span>From</span> Josephan Williamson</h2>\n            <p><span>Visited For</span> Cardiac Surgeon</p>\n            <!-- <div class="rate">\n                <strong>4.5</strong>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <span>20 Dec 2017</span>\n            </div> -->\n        </ion-item>\n        <ion-card-content>\n            Components allow you to quickly construct an interface for your app. Ionic comes with a number of components, including modals, popups, and cards.\n        </ion-card-content>\n    </ion-card>\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile3.png">\n            </ion-avatar>\n            <h2><span>From</span> Josephan Williamson</h2>\n            <p><span>Visited For</span> Cardiac Surgeon</p>\n            <!-- <div class="rate">\n                <strong>4.5</strong>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <span>20 Dec 2017</span>\n            </div> -->\n        </ion-item>\n        <ion-card-content>\n            Components allow you to quickly construct an interface for your app. Ionic comes with a number of components, including modals, popups, and cards.\n        </ion-card-content>\n    </ion-card>\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile4.png">\n            </ion-avatar>\n            <h2><span>From</span> Josephan Williamson</h2>\n            <p><span>Visited For</span> Cardiac Surgeon</p>\n            <!-- <div class="rate">\n                <strong>4.5</strong>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <span>20 Dec 2017</span>\n            </div> -->\n        </ion-item>\n        <ion-card-content>\n            Components allow you to quickly construct an interface for your app. Ionic comes with a number of components, including modals, popups, and cards.\n        </ion-card-content>\n    </ion-card>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/myfeedbacks/myfeedbacks.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], MyfeedbacksPage);
     return MyfeedbacksPage;
 }());
@@ -208,7 +208,7 @@ var SettingsPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-settings',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/settings/settings.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Preferences\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <div class="bg-white">\n        <p class="text-danger">Notification Settings</p>\n        <ion-item>\n            <ion-label>Appointment<small>Sound when info receive regarding appointment</small></ion-label>\n            <ion-toggle color="danger" checked="true"></ion-toggle>\n        </ion-item>\n        <ion-item>\n            <ion-label>Chat<small>Sound when info receive regarding appointment</small></ion-label>\n            <ion-toggle color="danger" checked="true"></ion-toggle>\n        </ion-item>\n        <ion-item>\n            <ion-label>Offer & updates<small>Sound when info receive regarding appointment</small></ion-label>\n            <ion-toggle color="danger" checked="true"></ion-toggle>\n        </ion-item>\n    </div>\n    <div class="bg-white">\n        <p class="text-danger">General</p>\n        <ion-item>\n            <ion-label>Profile Edit</ion-label>\n        </ion-item>\n        <ion-item>\n            <ion-label>DoctoHub Website</ion-label>\n        </ion-item>\n        <ion-item>\n            <ion-label>Rate DoctoHub</ion-label>\n        </ion-item>\n        <ion-item>\n            <ion-label>Are you a Doctor?</ion-label>\n        </ion-item>\n    </div>\n    <div class="fix-btn"><button ion-button full class="btn text-success">Logout <ion-icon name="md-log-out"></ion-icon></button></div>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/settings/settings.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], SettingsPage);
     return SettingsPage;
 }());
@@ -224,12 +224,12 @@ var SettingsPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__doctorprofile_doctorprofile__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__doctorprofile_doctorprofile__ = __webpack_require__(212);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__doctroslist_doctroslist__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__chatDoctorList_chatDoctorList__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__chatDoctorList_chatDoctorList__ = __webpack_require__(215);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__myfeedbacks_myfeedbacks__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__chatscreen_chatscreen__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__medical_medical__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__chatscreen_chatscreen__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__medical_medical__ = __webpack_require__(216);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__profile_profile__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__settings_settings__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__account_account__ = __webpack_require__(101);
@@ -302,10 +302,9 @@ var HomePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/home/home.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            <img src="assets/imgs/header-logo.png">\n            <!-- <span><small margin-right>All Navigation</small>\n                <ion-select [(ngModel)]="location" (ionChange)="nav($event)" interface="popover" class="location">\n                    <small>Location</small>\n                    <ion-option value="ProfilePage">Profile Page</ion-option>\n                    <ion-option value="MyfeedbacksPage">My Feedbacks Page</ion-option>\n                    <ion-option value="HelpPage">Help</ion-option>\n                    <ion-option value="SettingsPag">Settings</ion-option>\n                </ion-select>\n            </span> -->\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n\n<ion-content>\n    <img src="assets/imgs/home-header.png">\n    <div class="book-now"><button (click)="bookAppointment()" ion-button full class="btn success">Book an appointment\n            Now</button></div>\n    <div class="">\n        <ion-list>\n            <ion-item (click)="finddoctor()">\n                <img src="assets/imgs/ic_chatwith_doctor.png" item-start>\n                <span>\n                    Chat with doctor\n                    <small>Get free consultation from doctors through chats</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <!-- <ion-item (click)="lab()">\n                <img src="assets/imgs/ic_scan.png" item-start>\n                <span>\n                    Doctors Feedback\n                    <small>List of Feedbacks given to you</small>\n                </span>\n\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item> -->\n            <ion-item (click)="medical()">\n                <img src="assets/imgs/ic_medicals.png" item-start>\n                <span>\n                    Call us\n                    <small>Get a quick response from us</small>\n                </span>\n\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n        </ion-list>\n    </div>\n<ion-fab right bottom>\n  <button (click)="chatscreen();" ion-fab  color="danger">  <ion-icon name="chatboxes"></ion-icon>\n</button>\n</ion-fab>\n</ion-content>'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/home/home.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], HomePage);
     return HomePage;
-    var _a;
 }());
 
 //# sourceMappingURL=home.js.map
@@ -360,7 +359,7 @@ var DoctroslistPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-doctroslist',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/doctroslist/doctroslist.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            <span class="location"><small>Speciality</small>\n            <ion-select [(ngModel)]="category" interface="popover" style="padding-left: 0;">\n                <ion-option value="a1">Cardiologist</ion-option>\n                <ion-option value="a2">Orthalmologist</ion-option>\n                <ion-option value="a3">Dermatologist</ion-option>\n            </ion-select>\n            </span>\n            <!-- <span class="location"><small margin-right>Location</small>\n            <ion-select [(ngModel)]="location" interface="popover" class="location">\n                <ion-option value="b1">Wallington</ion-option>\n                <ion-option value="b2">Nerobi</ion-option>\n                <ion-option value="b3">Central Park</ion-option>\n              </ion-select>\n            </span> -->\n        </ion-title>\n    </ion-navbar>\n    <div class="filter" padding>\n        <ion-row>\n            <ion-col col-4 class="text-danger" text-left (click)="filter()">\n                <ion-icon name="md-funnel"></ion-icon>Filter</ion-col>\n            <ion-col col-4 text-center>234 result found</ion-col>\n            <!-- <ion-col col-4 class="text-danger" text-right (click)="map()">View in map</ion-col> -->\n        </ion-row>\n    </div>\n</ion-header>\n\n<ion-content class="bg-light">\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <button ion-button clear class="btn success" (click)="doctorprofile()">Book</button>\n        </ion-item>\n        <ion-card-content>\n            At apple hospital, Walter street, Wallington\n            <!-- <ion-scroll scrollX="true" style="height:60px;white-space: nowrap;">\n                <img src="assets/imgs/img-1.png">\n                <img src="assets/imgs/img-2.png">\n                <img src="assets/imgs/img-3.png">\n                <img src="assets/imgs/img-4.png">\n                <img src="assets/imgs/img-5.png">\n            </ion-scroll> -->\n        </ion-card-content>\n\n        <ion-row class="about-row">\n            <ion-col col-5 center text-left>\n                Experience <strong>22 Years</strong>\n            </ion-col>\n            <ion-col center text-center>\n                Fee <strong>$30</strong>\n            </ion-col>\n            <ion-col col-5 center text-right>\n                Feedback\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <span>&nbsp;&nbsp;(123)</span>\n            </ion-col>\n        </ion-row>\n    </ion-card>\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile2.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <button ion-button clear class="btn success" (click)="doctorprofile()">Book</button>\n        </ion-item>\n        <ion-card-content>\n            At apple hospital, Walter street, Wallington,New york\n            <!-- <ion-scroll scrollX="true" style="height:60px;white-space: nowrap;">\n                <img src="assets/imgs/img-1.png">\n                <img src="assets/imgs/img-2.png">\n                <img src="assets/imgs/img-3.png">\n                <img src="assets/imgs/img-4.png">\n                <img src="assets/imgs/img-5.png">\n            </ion-scroll> -->\n        </ion-card-content>\n        <ion-row class="about-row">\n            <ion-col col-5 center text-left>\n                Experience <strong>22 Years</strong>\n            </ion-col>\n            <ion-col center text-center>\n                Fee <strong>$30</strong>\n            </ion-col>\n            <ion-col col-5 center text-right>\n                Feedback\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <span>&nbsp;&nbsp;(123)</span>\n            </ion-col>\n        </ion-row>\n    </ion-card>\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile3.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <button ion-button clear class="btn success" (click)="doctorprofile()">Book</button>\n        </ion-item>\n        <ion-card-content>\n            At apple hospital, Walter street, Wallington,New york\n            <!-- <ion-scroll scrollX="true" style="height:60px;white-space: nowrap;">\n                <img src="assets/imgs/img-1.png">\n                <img src="assets/imgs/img-2.png">\n                <img src="assets/imgs/img-3.png">\n                <img src="assets/imgs/img-4.png">\n                <img src="assets/imgs/img-5.png">\n            </ion-scroll> -->\n        </ion-card-content>\n        <ion-row class="about-row">\n            <ion-col col-5 center text-left>\n                Experience <strong>22 Years</strong>\n            </ion-col>\n            <ion-col center text-center>\n                Fee <strong>$30</strong>\n            </ion-col>\n            <ion-col col-5 center text-right>\n                Feedback\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <span>&nbsp;&nbsp;(123)</span>\n            </ion-col>\n        </ion-row>\n    </ion-card>\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile4.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <button ion-button clear class="btn success">Book</button>\n        </ion-item>\n        <ion-card-content>\n            At apple hospital, Walter street, Wallington,New york\n            <!-- <ion-scroll scrollX="true" style="height:60px;white-space: nowrap;">\n                <img src="assets/imgs/img-1.png">\n                <img src="assets/imgs/img-2.png">\n                <img src="assets/imgs/img-3.png">\n                <img src="assets/imgs/img-4.png">\n                <img src="assets/imgs/img-5.png">\n            </ion-scroll> -->\n        </ion-card-content>\n        <ion-row class="about-row">\n            <ion-col col-5 center text-left>\n                Experience <strong>22 Years</strong>\n            </ion-col>\n            <ion-col center text-center>\n                Fee <strong>$30</strong>\n            </ion-col>\n            <ion-col col-5 center text-right>\n                Feedback\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <span>&nbsp;&nbsp;(123)</span>\n            </ion-col>\n        </ion-row>\n    </ion-card>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/doctroslist/doctroslist.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* ModalController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */]])
     ], DoctroslistPage);
     return DoctroslistPage;
 }());
@@ -400,7 +399,7 @@ var MapPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-map',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/map/map.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            <ion-icon name="md-close" (click)="dismiss()"></ion-icon>&nbsp;&nbsp;&nbsp;Map View\n            <span class="location"><small>Location</small>\n            <ion-select [(ngModel)]="location" interface="popover" class="location">\n                <ion-option value="b1">Wallington</ion-option>\n                <ion-option value="b2">Nerobi</ion-option>\n                <ion-option value="b3">Central Park</ion-option>\n              </ion-select>\n            </span>\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <img src="assets/imgs/map.png" style="position: absolute;height: 100%;bottom: 0;z-index: -99;">\n\n    <div class="profile">\n        <div class="profile-img" style="top: 20%; left: 20%"><img src="assets/imgs/profile1.png"></div>\n        <div class="profile-img" style="top: 30%; left: 70%"><img src="assets/imgs/profile2.png"></div>\n        <div class="profile-img active" style="top: 42%; left: 45%"><img src="assets/imgs/profile3.png"></div>\n        <div class="profile-img" style="top: 40%; left: 80%"><img src="assets/imgs/profile4.png"></div>\n        <div class="profile-img" style="top: 70%; left: 30%"><img src="assets/imgs/profile5.png"></div>\n    </div>\n\n\n\n    <div class="card-container">\n        <ion-scroll scrollX="true" style="height:125px;white-space: nowrap;">\n            <ion-card>\n                <ion-item>\n                    <ion-avatar item-start>\n                        <img src="assets/imgs/profile5.png">\n                    </ion-avatar>\n                    <h2>Dr. Josephan Williamson</h2>\n                    <p>Cardiac Surgeon</p>\n                    <ion-icon name="ios-information-circle-outline"></ion-icon>\n                </ion-item>\n                <ion-card-content>\n                    At apple hospital, Walter street, Wallington,New york\n                </ion-card-content>\n                <ion-row class="about-row">\n                    <ion-col col-5 center text-left>\n                        Exp. <strong>22 Years</strong>\n                    </ion-col>\n                    <ion-col center text-center>\n                        Fee <strong>$30</strong>\n                    </ion-col>\n                    <ion-col col-5 center text-right>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star"></ion-icon>\n                        <span>&nbsp;&nbsp;(123)</span>\n                    </ion-col>\n                </ion-row>\n            </ion-card>\n            <ion-card>\n                <ion-item>\n                    <ion-avatar item-start>\n                        <img src="assets/imgs/profile5.png">\n                    </ion-avatar>\n                    <h2>Dr. Josephan Williamson</h2>\n                    <p>Cardiac Surgeon</p>\n                    <ion-icon name="ios-information-circle-outline"></ion-icon>\n                </ion-item>\n                <ion-card-content>\n                    At apple hospital, Walter street, Wallington,New york\n                </ion-card-content>\n                <ion-row class="about-row">\n                    <ion-col col-5 center text-left>\n                        Exp. <strong>22 Years</strong>\n                    </ion-col>\n                    <ion-col center text-center>\n                        Fee <strong>$30</strong>\n                    </ion-col>\n                    <ion-col col-5 center text-right>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star"></ion-icon>\n                        <span>&nbsp;&nbsp;(123)</span>\n                    </ion-col>\n                </ion-row>\n            </ion-card>\n            <ion-card>\n                <ion-item>\n                    <ion-avatar item-start>\n                        <img src="assets/imgs/profile5.png">\n                    </ion-avatar>\n                    <h2>Dr. Josephan Williamson</h2>\n                    <p>Cardiac Surgeon</p>\n                    <ion-icon name="ios-information-circle-outline"></ion-icon>\n                </ion-item>\n                <ion-card-content>\n                    At apple hospital, Walter street, Wallington,New york\n                </ion-card-content>\n                <ion-row class="about-row">\n                    <ion-col col-5 center text-left>\n                        Exp. <strong>22 Years</strong>\n                    </ion-col>\n                    <ion-col center text-center>\n                        Fee <strong>$30</strong>\n                    </ion-col>\n                    <ion-col col-5 center text-right>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star"></ion-icon>\n                        <span>&nbsp;&nbsp;(123)</span>\n                    </ion-col>\n                </ion-row>\n            </ion-card>\n        </ion-scroll>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/map/map.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ViewController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
     ], MapPage);
     return MapPage;
 }());
@@ -439,7 +438,7 @@ var FilterPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-filter',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/filter/filter.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            <ion-icon name="md-close" (click)="dismiss()"></ion-icon>&nbsp;&nbsp;&nbsp;Filter\n            <span class="location" (click)="dismiss()">Reset</span>\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light" padding-top>\n    <ion-list radio-group>\n        <ion-list-header>\n            <span class="text-danger">Sort by</span>\n        </ion-list-header>\n\n        <ion-item>\n            <ion-label>Consultancy fees</ion-label>\n            <ion-radio checked="true" value="fee"></ion-radio>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Rating</ion-label>\n            <ion-radio value="rate"></ion-radio>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Nearer place</ion-label>\n            <ion-radio value="near"></ion-radio>\n        </ion-item>\n    </ion-list>\n    <div></div>\n    <ion-list radio-group>\n        <ion-list-header>\n            <span class="text-danger">Consultancy fees</span>\n        </ion-list-header>\n\n        <ion-item>\n            <ion-label>0$ - 10 $</ion-label>\n            <ion-radio checked="true" value="0-10"></ion-radio>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>11$ - 30 $</ion-label>\n            <ion-radio value="11-30"></ion-radio>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>31$ - more</ion-label>\n            <ion-radio value="31-more"></ion-radio>\n        </ion-item>\n    </ion-list>\n    <div></div>\n    <ion-list class="check-items" radio-group>\n        <ion-list-header>\n            <span class="text-danger">Gender</span>\n        </ion-list-header>\n        <ion-row class="bg-white">\n            <ion-col col-6>\n                <ion-item>\n                    <ion-label>Male</ion-label>\n                    <ion-radio checked="true" value="male"></ion-radio>\n                </ion-item>\n            </ion-col>\n            <ion-col col-6>\n                <ion-item>\n                    <ion-label>Female</ion-label>\n                    <ion-radio value="female"></ion-radio>\n                </ion-item>\n            </ion-col>\n        </ion-row>\n    </ion-list>\n    <p style="position: relative;height: 60px"></p>\n    <div class="fix-btn"><button ion-button full class="btn success" (click)="dismiss()">Apply Now</button></div>\n\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/filter/filter.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ViewController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
     ], FilterPage);
     return FilterPage;
 }());
@@ -449,6 +448,41 @@ var FilterPage = /** @class */ (function () {
 /***/ }),
 
 /***/ 109:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChatscreenPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ChatscreenPage = /** @class */ (function () {
+    function ChatscreenPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    ChatscreenPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-chatscreen',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/chatscreen/chatscreen.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Chat now\n            <ion-icon name="ios-information-circle-outline" float-right></ion-icon>\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="chat-bg" style="background: url(assets/imgs/chat-bg.png);" padding>\n    <p class="receve"><img src="assets/imgs/profile1.png">Hello, How may we help you.?<br>Tell me about your problem.<small>12:29</small></p>\n    <p class="send">Hello,<br>I have some questions ?<small>12:29</small></p>\n    <p class="send">Thanks you.!<br>Actually from last 2-3days<br>I am feeling too sickness<small>12:29</small></p>\n    <div class="chat-input">\n        <ion-item>\n            <ion-input type="text" placeholder="Write your message"></ion-input>\n        </ion-item>\n        <ion-icon name="attach" class="attachment"></ion-icon>\n        <ion-icon name="send" class="text-success"></ion-icon>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/chatscreen/chatscreen.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
+    ], ChatscreenPage);
+    return ChatscreenPage;
+}());
+
+//# sourceMappingURL=chatscreen.js.map
+
+/***/ }),
+
+/***/ 110:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -474,7 +508,7 @@ var AppointmentdetailPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-appointmentdetail',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/appointmentdetail/appointmentdetail.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Appointment Detail\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <span class="text-danger">Cancel</span>\n        </ion-item>\n        <ion-card-content>\n            <ion-row class="appot-detail">\n                <ion-col class="icon">\n                    <ion-icon name="md-calendar" class="text-danger"></ion-icon>\n                </ion-col>\n                <ion-col class="detail">\n                    <small>Appointment date & time</small>\n                    <strong>12 March,12:00 noon</strong>\n                    <span>in 3 days</span>\n                </ion-col>\n                <ion-col class="option text-success">Reschedule</ion-col>\n            </ion-row>\n            <ion-row class="appot-detail">\n                <ion-col class="icon">\n                    <ion-icon name="ios-pin" class="text-danger"></ion-icon>\n                </ion-col>\n                <ion-col class="detail">\n                    <small>Location</small>\n                    <strong>At Apple Hospital,</strong>\n                    <span>Walter Street, Wallington, New Yoek</span>\n                </ion-col>\n            </ion-row>\n        </ion-card-content>\n    </ion-card>\n    <ion-card>\n        <ion-card-content>\n            <ion-row class="appot-detail">\n                <ion-col class="icon">\n                    <ion-icon name="md-clipboard" class="text-danger"></ion-icon>\n                </ion-col>\n                <ion-col class="detail">\n                    <small>Appointment booked for</small>\n                    <strong>Email Johnson</strong>\n                    <span>908765435</span>\n                </ion-col>\n            </ion-row>\n            <ion-row class="appot-detail">\n                <ion-col class="icon">\n                    <ion-icon name="md-information-circle" class="text-danger"></ion-icon>\n                </ion-col>\n                <ion-col class="detail">\n                    <small>Appointment number</small>\n                    <strong>66554492</strong>\n                    <span>Just forreference purpose</span>\n                </ion-col>\n            </ion-row>\n        </ion-card-content>\n    </ion-card>\n    <!-- <div class="fix-btn"><button ion-button full class="btn success">Get Direction</button></div> -->\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/appointmentdetail/appointmentdetail.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], AppointmentdetailPage);
     return AppointmentdetailPage;
 }());
@@ -483,7 +517,7 @@ var AppointmentdetailPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 110:
+/***/ 111:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -513,7 +547,7 @@ var TestsPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-tests',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/tests/tests.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            <ion-icon name="md-close" (click)="dismiss()"></ion-icon>&nbsp;&nbsp;&nbsp;Search\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <ion-searchbar (ionInput)="getItems($event)" placeholder="Search for tests"></ion-searchbar>\n    <ion-list>\n        <ion-item>\n            Acetoacetate<strong>40 $</strong>\n        </ion-item>\n        <ion-item>\n            Acetoaceti Acid<strong>20 $</strong>\n        </ion-item>\n        <ion-item>\n            Acetone<strong>10 $</strong>\n        </ion-item>\n        <ion-item>\n            Acetylcholine Receptor<strong>23 $</strong>\n        </ion-item>\n        <ion-item>\n            Acetylcholine Receptor Antibody<strong>15 $</strong>\n        </ion-item>\n        <ion-item>\n            Acetylcholine Receptor Binding<strong>47 $</strong>\n        </ion-item>\n        <ion-item>\n            Acetylcholine Receptor Blocking<strong>50 $</strong>\n        </ion-item>\n        <ion-item>\n            Acetylcholine Modulating Antibody<strong>35 $</strong>\n        </ion-item>\n        <ion-item>\n            Acetylsalicylic Acide<strong>19 $</strong>\n        </ion-item>\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/tests/tests.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ViewController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
     ], TestsPage);
     return TestsPage;
 }());
@@ -522,7 +556,7 @@ var TestsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 120:
+/***/ 121:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -535,11 +569,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 120;
+webpackEmptyAsyncContext.id = 121;
 
 /***/ }),
 
-/***/ 161:
+/***/ 162:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -552,11 +586,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 161;
+webpackEmptyAsyncContext.id = 162;
 
 /***/ }),
 
-/***/ 205:
+/***/ 206:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -564,7 +598,7 @@ webpackEmptyAsyncContext.id = 161;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_tabs__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__forgotpassword_forgotpassword__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__forgotpassword_forgotpassword__ = __webpack_require__(220);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_home__ = __webpack_require__(105);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -599,7 +633,7 @@ var SigninPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-signin',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/signin/signin.html"*/'<!--\n<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Sign In\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n-->\n\n<ion-content class="bg-light">\n    <div class="logo bg-white" text-center>\n        <img src="assets/imgs/logo.png">\n    </div>\n\n    <div class="defult-tab bg-white">\n        <ion-segment [(ngModel)]="login" padding-left padding-right>\n            <ion-segment-button value="signin" class="text-white">\n                Sign in\n            </ion-segment-button>\n            <ion-segment-button value="signup" class="text-white">\n                Sign up\n            </ion-segment-button>\n        </ion-segment>\n    </div>\n\n    <div [ngSwitch]="login" class="difault-form bg-light" padding>\n        <ion-list *ngSwitchCase="\'signin\'">\n            <ion-item class="bg-light">\n                <ion-input type="number" placeholder="Email"></ion-input>\n            </ion-item>\n            <ion-item class="bg-light">\n                <ion-input type="password" placeholder="Password"></ion-input>\n                <small class="password">Forgot?</small>\n            </ion-item>\n            <small class="password" (click)="forgotpassword()">Forgot?</small>\n            <br>\n            <button ion-button full class="btn danger" (click)="location()">Sign in</button>\n            <!-- <ion-row class="btn-grup">\n                <ion-col col-6 text-center>New user?</ion-col>\n                <ion-col col-6><button ion-button full class="btn text-danger">Register Now</button></ion-col>\n            </ion-row> -->\n        </ion-list>\n        <ion-list *ngSwitchCase="\'signup\'">\n            <ion-item class="bg-light">\n                <ion-input type="number" placeholder="Email"></ion-input>\n            </ion-item>\n            <ion-item class="bg-light">\n                <ion-input type="text" placeholder="Full Name"></ion-input>\n            </ion-item>\n            <ion-item class="bg-light">\n                <ion-input type="text" placeholder="Password"></ion-input>\n            </ion-item>\n            <br>\n            <button ion-button full class="btn danger" (click)="location()">Sign up</button>\n        </ion-list>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/signin/signin.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], SigninPage);
     return SigninPage;
 }());
@@ -608,14 +642,14 @@ var SigninPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 206:
+/***/ 207:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BlogsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__readblog_readblog__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__readblog_readblog__ = __webpack_require__(208);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -639,7 +673,7 @@ var BlogsPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-blogs',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/blogs/blogs.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Health Blogs\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <ion-card (click)="readblog()">\n        <ion-card-content>\n            <img src="assets/imgs/blog-1.png">\n            <div class="blog-text">\n                <p><span class="text-danger">Dental</span>12 Dec, 18</p>\n                <h2>Get Rid of Breath & Yellow Teeth</h2>\n                <p>Dr.Sam Smith, Dentist\n                    <ion-icon name="md-share" class="text-success"></ion-icon>\n                </p>\n            </div>\n        </ion-card-content>\n    </ion-card>\n    <ion-card (click)="readblog()">\n        <ion-card-content>\n            <img src="assets/imgs/blog-2.png">\n            <div class="blog-text">\n                <p><span class="text-danger">Hair Care</span>12 Dec, 18</p>\n                <h2>Get Rid of Breath & Yellow Teeth</h2>\n                <p>Dr.Sam Smith, Dentist\n                    <ion-icon name="md-share" class="text-success"></ion-icon>\n                </p>\n            </div>\n        </ion-card-content>\n    </ion-card>\n    <ion-card (click)="readblog()">\n        <ion-card-content>\n            <img src="assets/imgs/blog-3.png">\n            <div class="blog-text">\n                <p><span class="text-danger">Food & Health</span>12 Dec, 18</p>\n                <h2>Get Rid of Breath & Yellow Teeth</h2>\n                <p>Dr.Sam Smith, Dentist\n                    <ion-icon name="md-share" class="text-success"></ion-icon>\n                </p>\n            </div>\n        </ion-card-content>\n    </ion-card>\n    <ion-card (click)="readblog()">\n        <ion-card-content>\n            <img src="assets/imgs/blog-4.png">\n            <div class="blog-text">\n                <p><span class="text-danger">Skin Care</span>12 Dec, 18</p>\n                <h2>Get Rid of Breath & Yellow Teeth</h2>\n                <p>Dr.Sam Smith, Dentist\n                    <ion-icon name="md-share" class="text-success"></ion-icon>\n                </p>\n            </div>\n        </ion-card-content>\n    </ion-card>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/blogs/blogs.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], BlogsPage);
     return BlogsPage;
 }());
@@ -648,7 +682,7 @@ var BlogsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 207:
+/***/ 208:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -674,7 +708,7 @@ var ReadblogPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-readblog',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/readblog/readblog.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            <ion-icon name="md-share" float-right class="text-white"></ion-icon>\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <img src="assets/imgs/blog-header.png">\n    <ion-card>\n        <ion-card-content>\n            <div class="blog-text">\n                <p><span class="text-danger">Dental</span>12 Dec, 18</p>\n                <h2>Get Rid of Breath & Yellow Teeth</h2>\n                <p>Dr.Sam Smith, Dentist</p>\n                <br>\n                <h6>In order for virtual scroll to efficiently size and locate every item, it\'s very important every element within each virtual item</h6>\n                <h5>10 Powerfull Winter Foods</h5>\n                <strong>Green Garlic</strong>\n                <h6>When including images within Virtual Scroll, be sure to use. In order for virtual scroll to efficiently size and locate every item, it\'s very important every element within each virtual item</h6>\n                <strong>Hara Chana/Fesh Green Garbanzos</strong>\n                <h6>In order for virtual scroll to efficiently size and locate every item, it\'s very important every element within each virtual item does not dynamically change its dimensions or location. The best way to ensure size and location does not change, it\'s recommended each virtual item has locked in its size via CSS.</h6>\n            </div>\n        </ion-card-content>\n    </ion-card>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/readblog/readblog.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], ReadblogPage);
     return ReadblogPage;
 }());
@@ -683,7 +717,7 @@ var ReadblogPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 208:
+/***/ 209:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -709,7 +743,7 @@ var AboutusPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-aboutus',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/aboutus/aboutus.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            About Us\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <img src="assets/imgs/about.png">\n    <div class="text-page">\n        <h1 class="text-danger heading">About D&C</h1>\n        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s</p>\n        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English. Web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>\n        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/aboutus/aboutus.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], AboutusPage);
     return AboutusPage;
 }());
@@ -718,7 +752,7 @@ var AboutusPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 209:
+/***/ 210:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -745,7 +779,7 @@ var TermsPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-terms',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/terms/terms.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Terms & Condition\n        </ion-title>\n    </ion-navbar>\n    <div class="defult-tab">\n        <ion-segment [(ngModel)]="tnc" padding-left padding-right>\n            <ion-segment-button value="tc" class="text-white">\n                Terms\n            </ion-segment-button>\n            <ion-segment-button value="pp" class="text-white pp">\n                Privacy Policy\n            </ion-segment-button>\n        </ion-segment>\n    </div>\n</ion-header>\n\n<ion-content>\n    <div [ngSwitch]="tnc" class="difault-form bg-light" padding>\n        <ion-list *ngSwitchCase="\'tc\'">\n            <div class="text-page">\n\n                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s</p>\n                <h1 class="text-danger heading">Terms With D&C</h1>\n                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English. Web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>\n                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>\n            </div>\n        </ion-list>\n        <ion-list *ngSwitchCase="\'pp\'">\n            <div class="text-page">\n                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s</p>\n                <h1 class="text-danger heading">Privacy Policy With D&C</h1>\n                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English. Web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>\n                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>\n            </div>\n        </ion-list>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/terms/terms.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], TermsPage);
     return TermsPage;
 }());
@@ -754,7 +788,7 @@ var TermsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 210:
+/***/ 211:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -780,7 +814,7 @@ var HelpPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-help',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/help/help.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Help & Support\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <img src="assets/imgs/about.png">\n    <div class="difault-form bg-white" padding>\n        <strong class="text-danger">Let us know your issue</strong>\n        <ion-list>\n            <ion-item>\n                <ion-input type="text" placeholder="Phone Number"></ion-input>\n            </ion-item>\n            <ion-item>\n                <ion-input type="text" placeholder="Issue regarding"></ion-input>\n            </ion-item>\n            <ion-item>\n                <ion-textarea type="text" placeholder="Describe your issue" style="height: 100px;"></ion-textarea>\n            </ion-item>\n            <br>\n            <button ion-button full class="btn success">Send Message</button>\n        </ion-list>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/help/help.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], HelpPage);
     return HelpPage;
 }());
@@ -789,82 +823,7 @@ var HelpPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 211:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChatsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__chatscreen_chatscreen__ = __webpack_require__(212);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var ChatsPage = /** @class */ (function () {
-    function ChatsPage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    ChatsPage.prototype.chatscreen = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__chatscreen_chatscreen__["a" /* ChatscreenPage */]);
-    };
-    ChatsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-chats',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/chats/chats.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Chats\n            <ion-icon name="md-add" float-right></ion-icon>\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <ion-card (click)="chatscreen()">\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <span>2 min ago</span>\n        </ion-item>\n        <ion-card-content>\n            <ion-row class="appot-detail">\n                <ion-col class="icon">\n                    <ion-icon name="md-chatbubbles" class="text-danger"></ion-icon>\n                </ion-col>\n                <ion-col class="detail">\n                    Yes sure,Can you click a picture and send me?\n                </ion-col>\n                <ion-col class="option">\n                    <ion-icon name="ios-arrow-forward"></ion-icon>\n                </ion-col>\n            </ion-row>\n        </ion-card-content>\n    </ion-card>\n    <ion-card (click)="chatscreen()">\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <span>2 min ago</span>\n        </ion-item>\n        <ion-card-content>\n            <ion-row class="appot-detail">\n                <ion-col class="icon">\n                    <ion-icon name="md-chatbubbles" class="text-danger"></ion-icon>\n                </ion-col>\n                <ion-col class="detail">\n                    Yes sure,Can you click a picture and send me?\n                </ion-col>\n                <ion-col class="option">\n                    <ion-icon name="ios-arrow-forward"></ion-icon>\n                </ion-col>\n            </ion-row>\n        </ion-card-content>\n    </ion-card>\n    <ion-card (click)="chatscreen()">\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <span>2 min ago</span>\n        </ion-item>\n        <ion-card-content>\n            <ion-row class="appot-detail">\n                <ion-col class="icon">\n                    <ion-icon name="md-chatbubbles" class="text-danger"></ion-icon>\n                </ion-col>\n                <ion-col class="detail">\n                    Yes sure,Can you click a picture and send me?\n                </ion-col>\n                <ion-col class="option">\n                    <ion-icon name="ios-arrow-forward"></ion-icon>\n                </ion-col>\n            </ion-row>\n        </ion-card-content>\n    </ion-card>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/chats/chats.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
-    ], ChatsPage);
-    return ChatsPage;
-}());
-
-//# sourceMappingURL=chats.js.map
-
-/***/ }),
-
 /***/ 212:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChatscreenPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var ChatscreenPage = /** @class */ (function () {
-    function ChatscreenPage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    ChatscreenPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-chatscreen',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/chatscreen/chatscreen.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Chat now\n            <ion-icon name="ios-information-circle-outline" float-right></ion-icon>\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="chat-bg" style="background: url(assets/imgs/chat-bg.png);" padding>\n    <p class="receve"><img src="assets/imgs/profile1.png">Hello, How may we help you.?<br>Tell me about your problem.<small>12:29</small></p>\n    <p class="send">Hello,<br>I have some questions ?<small>12:29</small></p>\n    <p class="send">Thanks you.!<br>Actually from last 2-3days<br>I am feeling too sickness<small>12:29</small></p>\n    <div class="chat-input">\n        <ion-item>\n            <ion-input type="text" placeholder="Write your message"></ion-input>\n        </ion-item>\n        <ion-icon name="attach" class="attachment"></ion-icon>\n        <ion-icon name="send" class="text-success"></ion-icon>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/chatscreen/chatscreen.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
-    ], ChatscreenPage);
-    return ChatscreenPage;
-}());
-
-//# sourceMappingURL=chatscreen.js.map
-
-/***/ }),
-
-/***/ 213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -872,7 +831,7 @@ var ChatscreenPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appointmentbook_appointmentbook__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__addfeedback_addfeedback__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__addfeedback_addfeedback__ = __webpack_require__(214);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -902,7 +861,7 @@ var DoctorprofilePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-doctorprofile',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/doctorprofile/doctorprofile.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            &nbsp;\n            <span>\n                <ion-icon name="ios-bookmark-outline" item-start></ion-icon>\n                <ion-icon name="md-share" item-start></ion-icon>\n                <ion-icon name="md-more" item-start></ion-icon>\n            </span>\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <img src="assets/imgs/img-1-burl.png" style="width: 100%;display: block;">\n    <div class="doctor-detail">\n        <img src="assets/imgs/profile4.png">\n        <div>\n            <h2 class="text-white">Dr.Joseph Williamson</h2>\n            <p class="text-white">Cardiac Surgen</p>\n            <h3>MBBS, MCH - Cardio Therecic & Vascular Surgery, FRCS Surgery</h3>\n        </div>\n    </div>\n    <div class="defult-tab bg-white">\n        <ion-segment [(ngModel)]="doctor" padding-left padding-right>\n            <ion-segment-button value="about" class="text-white">\n                About\n            </ion-segment-button>\n            <ion-segment-button value="feedback" class="text-white">\n                Feedback\n            </ion-segment-button>\n        </ion-segment>\n    </div>\n\n    <div [ngSwitch]="doctor" class="bg-light mb">\n        <ion-list *ngSwitchCase="\'about\'">\n            <div class="bg-white overview">\n                <p class="text-danger header">Overview</p>\n                <ion-row>\n                    <ion-col col-6>\n                        <div>\n                            <ion-icon name="md-medkit"></ion-icon>\n                            <p>Experience</p>\n                            <h2>18 Years</h2>\n                        </div>\n                    </ion-col>\n                    <ion-col col-6>\n                        <div>\n                            <ion-icon name="md-thumbs-up"></ion-icon>\n                            <p>Feedback</p>\n                            <h2>4.9\n                                <ion-icon name="md-star" class="active"></ion-icon>\n                                <ion-icon name="md-star" class="active"></ion-icon>\n                                <ion-icon name="md-star" class="active"></ion-icon>\n                                <ion-icon name="md-star" class="active"></ion-icon>\n                                <ion-icon name="md-star"></ion-icon>\n                                <span>(124)</span>\n                            </h2>\n                        </div>\n                    </ion-col>\n                    <ion-col col-6>\n                        <div>\n                            <ion-icon name="logo-usd"></ion-icon>\n                            <p>Consultancy fees</p>\n                            <h2>$28</h2>\n                        </div>\n                    </ion-col>\n                    <ion-col col-6>\n                        <div>\n                            <ion-icon name="md-time"></ion-icon>\n                            <p>Availability</p>\n                            <h2>Available at 012:00 to 13:00</h2>\n                        </div>\n                    </ion-col>\n                </ion-row>\n            </div>\n            <div class="bg-white overview">\n                <p class="text-danger header">Address</p>\n                <p class="header"><strong>Apple Hospital, Water street, Wallington, New York. </strong></p>\n                <div class="map-location">\n                    <img src="assets/imgs/map-location.png" style="position: absolute;height: 100%;bottom: 0;z-index: 0;">\n                    <div class="profile-img active" style="top: 42%; left: 45%"><img src="assets/imgs/profile3.png"></div>\n                </div>\n            </div>\n            <div class="bg-white overview">\n                <p class="text-danger header">Services</p>\n                <ion-row>\n                    <ion-col col-6>\n                        <div>\n                            <img src="assets/imgs/list-icon.png">\n                            <h3>Hypertension Treatment</h3>\n                        </div>\n                    </ion-col>\n                    <ion-col col-6>\n                        <div>\n                            <img src="assets/imgs/list-icon.png">\n                            <h3>Health Checkup (General)</h3>\n                        </div>\n                    </ion-col>\n                    <ion-col col-6>\n                        <div>\n                            <img src="assets/imgs/list-icon.png">\n                            <h3>COPD Treatment</h3>\n                        </div>\n                    </ion-col>\n                    <ion-col col-6>\n                        <div>\n                            <img src="assets/imgs/list-icon.png">\n                            <h3>Fever Treatment</h3>\n                        </div>\n                    </ion-col>\n                    <ion-col col-6>\n                        <div>\n                            <img src="assets/imgs/list-icon.png">\n                            <h3>Diabetes Managment</h3>\n                        </div>\n                    </ion-col>\n                    <ion-col col-6>\n                        <div>\n                            <img src="assets/imgs/list-icon.png">\n                            <h3>Non Intereventional Cardiology</h3>\n                        </div>\n                    </ion-col>\n                    <ion-col col-6>\n                        <div>\n                            <img src="assets/imgs/list-icon.png">\n                            <h3>ECG</h3>\n                        </div>\n                    </ion-col>\n                    <ion-col col-6>\n                        <div>\n                            <img src="assets/imgs/list-icon.png">\n                            <h3>Diabetology</h3>\n                        </div>\n                    </ion-col>\n                    <ion-col col-6>\n                        <div>\n                            <img src="assets/imgs/list-icon.png">\n                            <h3>Obesity Treatment</h3>\n                        </div>\n                    </ion-col>\n                </ion-row>\n                <br>\n            </div>\n            <div class="bg-white overview">\n                <p class="text-danger header">Specialization</p>\n                <ion-row>\n                    <ion-col col-12>\n                        <div>\n                            <img src="assets/imgs/list-icon.png">\n                            <h3>Gernal Physican</h3>\n                        </div>\n                    </ion-col>\n                    <ion-col col-12>\n                        <div>\n                            <img src="assets/imgs/list-icon.png">\n                            <h3>Family Physican</h3>\n                        </div>\n                    </ion-col>\n                    <ion-col col-12>\n                        <div>\n                            <img src="assets/imgs/list-icon.png">\n                            <h3>Cardiologist</h3>\n                        </div>\n                    </ion-col>\n                    <ion-col col-12>\n                        <div>\n                            <img src="assets/imgs/list-icon.png">\n                            <h3>Consultant Physican</h3>\n                        </div>\n                    </ion-col>\n                    <ion-col col-12>\n                        <div>\n                            <img src="assets/imgs/list-icon.png">\n                            <h3>Diabetologist</h3>\n                        </div>\n                    </ion-col>\n                </ion-row>\n                <br>\n            </div>\n            <div class="bg-white overview practics">\n                <p class="text-danger header">Also Practics at</p>\n                <ion-row>\n                    <ion-col col-12>\n                        <h5>Health Roots Clinics</h5>\n                        <p>1124, Edison Street, Willington, Newyork </p>\n                    </ion-col>\n                    <ion-col col-12>\n                        <h5>Appolo Hospital</h5>\n                        <p>JJ towers, Johnson street, Hemilton, New york.</p>\n                    </ion-col>\n                </ion-row>\n                <br>\n            </div>\n            <div class="bg-white overview practics">\n                <p class="text-danger header">Available Timings</p>\n                <ion-row>\n                    <ion-col col-6>\n                        <h5>Mon<span float-right>12:00 to 13:00</span></h5>\n                    </ion-col>\n                    <ion-col col-6>\n                        <h5>Tue<span float-right>12:00 to 13:00</span></h5>\n                    </ion-col>\n                    <ion-col col-6>\n                        <h5>Wed<span float-right>12:00 to 13:00</span></h5>\n                    </ion-col>\n                    <ion-col col-6>\n                        <h5>Thu<span float-right>12:00 to 13:00</span></h5>\n                    </ion-col>\n                    <ion-col col-6>\n                        <h5>Fri<span float-right>Closed</span></h5>\n                    </ion-col>\n                    <ion-col col-6>\n                        <h5>Sat<span float-right>12:00 to 13:00</span></h5>\n                    </ion-col>\n                    <ion-col col-6>\n                        <h5>Sun<span float-right>Closed</span></h5>\n                    </ion-col>\n                </ion-row>\n            </div>\n            <br><br>\n            <button ion-button full class="btn success fixed" (click)="appointmentbook()"><ion-icon name="md-calendar"></ion-icon>Book Appointment now</button>\n        </ion-list>\n        <ion-list *ngSwitchCase="\'feedback\'">\n\n            <div class="bg-white rate-over-all">\n                <ion-row>\n                    <ion-col col-6>\n                        <div class="rate">\n                            <span>Overall</span>\n                            <ion-icon name="md-star" class="active"></ion-icon>\n                            <ion-icon name="md-star" class="active"></ion-icon>\n                            <ion-icon name="md-star" class="active"></ion-icon>\n                            <ion-icon name="md-star" class="active"></ion-icon>\n                            <ion-icon name="md-star"></ion-icon>\n                            <span>(124)</span>\n                        </div>\n                    </ion-col>\n                    <ion-col col-6 style="padding-right: 0;">\n                        <div class="rate">\n                            <span>Short By</span>\n                            <ion-select [(ngModel)]="Short" interface="popover" class="location">\n                                <ion-option value="n1">Recent</ion-option>\n                                <ion-option value="n2">Oldest</ion-option>\n                            </ion-select>\n                        </div>\n                    </ion-col>\n                </ion-row>\n            </div>\n\n            <ion-card>\n                <ion-item>\n                    <ion-avatar item-start>\n                        <img src="assets/imgs/profile1.png">\n                    </ion-avatar>\n                    <h2><span>To</span> Dr. Josephan Williamson</h2>\n                    <p><span>Visited For</span> Cardiac Surgeon</p>\n                    <div class="rate">\n                        <strong>4.5</strong>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star"></ion-icon>\n                        <span>20 Dec 2017</span>\n                    </div>\n                </ion-item>\n                <ion-card-content>\n                    Components allow you to quickly construct an interface for your app. Ionic comes with a number of components, including modals, popups, and cards.\n                </ion-card-content>\n            </ion-card>\n            <ion-card>\n                <ion-item>\n                    <ion-avatar item-start>\n                        <img src="assets/imgs/profile1.png">\n                    </ion-avatar>\n                    <h2><span>To</span> Dr. Josephan Williamson</h2>\n                    <p><span>Visited For</span> Cardiac Surgeon</p>\n                    <div class="rate">\n                        <strong>4.5</strong>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star"></ion-icon>\n                        <span>20 Dec 2017</span>\n                    </div>\n                </ion-item>\n                <ion-card-content>\n                    Components allow you to quickly construct an interface for your app. Ionic comes with a number of components, including modals, popups, and cards.\n                </ion-card-content>\n            </ion-card>\n            <ion-card>\n                <ion-item>\n                    <ion-avatar item-start>\n                        <img src="assets/imgs/profile1.png">\n                    </ion-avatar>\n                    <h2><span>To</span> Dr. Josephan Williamson</h2>\n                    <p><span>Visited For</span> Cardiac Surgeon</p>\n                    <div class="rate">\n                        <strong>4.5</strong>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star"></ion-icon>\n                        <span>20 Dec 2017</span>\n                    </div>\n                </ion-item>\n                <ion-card-content>\n                    Components allow you to quickly construct an interface for your app. Ionic comes with a number of components, including modals, popups, and cards.\n                </ion-card-content>\n            </ion-card>\n            <ion-card>\n                <ion-item>\n                    <ion-avatar item-start>\n                        <img src="assets/imgs/profile1.png">\n                    </ion-avatar>\n                    <h2><span>To</span> Dr. Josephan Williamson</h2>\n                    <p><span>Visited For</span> Cardiac Surgeon</p>\n                    <div class="rate">\n                        <strong>4.5</strong>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star" class="active"></ion-icon>\n                        <ion-icon name="md-star"></ion-icon>\n                        <span>20 Dec 2017</span>\n                    </div>\n                </ion-item>\n                <ion-card-content>\n                    Components allow you to quickly construct an interface for your app. Ionic comes with a number of components, including modals, popups, and cards.\n                </ion-card-content>\n            </ion-card><br><br>\n            <button ion-button full class="btn success fixed" (click)="addfeedback()"><ion-icon name="md-thumbs-up"></ion-icon>Give Feedback</button>\n        </ion-list>\n    </div>\n\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/doctorprofile/doctorprofile.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], DoctorprofilePage);
     return DoctorprofilePage;
 }());
@@ -911,7 +870,7 @@ var DoctorprofilePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 214:
+/***/ 213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -938,7 +897,7 @@ var ChatwithdoctorPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-chatwithdoctor',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/chatwithdoctor/chatwithdoctor.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Ask doctor\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <p padding-left padding-right><strong>Describe your issue</strong></p>\n    <ion-list>\n        <ion-item>\n            <ion-label>Treatment Type</ion-label>\n            <ion-select [(ngModel)]="Treatment" interface="popover">\n                <ion-option value="v1">Bones & Join Problem</ion-option>\n                <ion-option value="v2">Blood Presser Problem</ion-option>\n                <ion-option value="v3">Skin Problem</ion-option>\n            </ion-select>\n        </ion-item>\n        <ion-item>\n            <ion-label>Title</ion-label>\n            <ion-input type="text" placeholder="Tap to add title (100 words)"></ion-input>\n        </ion-item>\n        <ion-item>\n            <ion-textarea type="text" placeholder="Describe your issue (300 words)"></ion-textarea>\n        </ion-item>\n        <ion-item>\n            <ion-label for="file">File attachment (optional)<span class="text-success" float-right>Upload file</span></ion-label>\n            <ion-input type="file" placeholder="Upload file" id="file"></ion-input>\n        </ion-item>\n    </ion-list>\n    <p text-center>Usually our doctor reply in 5-10 minutes</p>\n\n    <button ion-button full class="btn success fixed">Submit Question</button>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/chatwithdoctor/chatwithdoctor.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], ChatwithdoctorPage);
     return ChatwithdoctorPage;
 }());
@@ -947,7 +906,7 @@ var ChatwithdoctorPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 215:
+/***/ 214:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -973,7 +932,7 @@ var AddfeedbackPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-addfeedback',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/addfeedback/addfeedback.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Give Feedback\n        </ion-title>\n    </ion-navbar>\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n        </ion-item>\n    </ion-card>\n</ion-header>\n\n<ion-content class="bg-light">\n    <div class="feedback" padding>\n        <p>Overall experience With Doctor</p>\n        <h3>\n            <ion-icon name="md-star"></ion-icon>\n            <ion-icon name="md-star"></ion-icon>\n            <ion-icon name="md-star"></ion-icon>\n            <ion-icon name="md-star"></ion-icon>\n            <ion-icon name="md-star"></ion-icon>\n        </h3>\n    </div>\n    <div class="feedback difault-form" padding>\n        <p>Visited Docotor for...</p>\n        <ion-item>\n            <ion-input type="text" placeholder="eg. Hear pain, Body Ache etc. "></ion-input>\n        </ion-item>\n    </div>\n    <div class="feedback difault-form" padding>\n        <p>How was your experiece?</p>\n        <ion-item>\n            <ion-textarea type="text" placeholder="Wright your experiece" style="min-height: 100px;"></ion-textarea>\n        </ion-item>\n    </div>\n    <br>\n    <button ion-button full class="btn success fixed">Submit Feedbback</button>\n\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/addfeedback/addfeedback.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], AddfeedbackPage);
     return AddfeedbackPage;
 }());
@@ -982,7 +941,7 @@ var AddfeedbackPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 216:
+/***/ 215:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1030,7 +989,7 @@ var ChatDoctorListPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-chatDoctroslist',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/chatDoctorList/chatDoctorList.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            <span class="location"><small>Speciality</small>\n            <ion-select [(ngModel)]="category" interface="popover" style="padding-left: 0;">\n                <ion-option value="a1">Cardiologist</ion-option>\n                <ion-option value="a2">Orthalmologist</ion-option>\n                <ion-option value="a3">Dermatologist</ion-option>\n            </ion-select>\n            </span>\n            <!-- <span class="location"><small margin-right>Location</small>\n            <ion-select [(ngModel)]="location" interface="popover" class="location">\n                <ion-option value="b1">Wallington</ion-option>\n                <ion-option value="b2">Nerobi</ion-option>\n                <ion-option value="b3">Central Park</ion-option>\n              </ion-select>\n            </span> -->\n        </ion-title>\n    </ion-navbar>\n    <div class="filter" padding>\n        <ion-row>\n            <ion-col col-4 class="text-danger" text-left (click)="filter()">\n                <ion-icon name="md-funnel"></ion-icon>Filter</ion-col>\n            <ion-col col-4 text-center>234 result found</ion-col>\n            <!-- <ion-col col-4 class="text-danger" text-right (click)="map()">View in map</ion-col> -->\n        </ion-row>\n    </div>\n</ion-header>\n\n<ion-content class="bg-light">\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <button ion-button clear class="btn success" (click)="doctorprofile()">Chat</button>\n        </ion-item>\n        <ion-card-content>\n            At apple hospital, Walter street, Wallington\n            <!-- <ion-scroll scrollX="true" style="height:60px;white-space: nowrap;">\n                <img src="assets/imgs/img-1.png">\n                <img src="assets/imgs/img-2.png">\n                <img src="assets/imgs/img-3.png">\n                <img src="assets/imgs/img-4.png">\n                <img src="assets/imgs/img-5.png">\n            </ion-scroll> -->\n        </ion-card-content>\n\n        <ion-row class="about-row">\n            <ion-col col-5 center text-left>\n                Experience <strong>22 Years</strong>\n            </ion-col>\n            <ion-col center text-center>\n                Fee <strong>$30</strong>\n            </ion-col>\n            <ion-col col-5 center text-right>\n                Feedback\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <span>&nbsp;&nbsp;(123)</span>\n            </ion-col>\n        </ion-row>\n    </ion-card>\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile2.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <button ion-button clear class="btn success" (click)="doctorprofile()">Chat</button>\n        </ion-item>\n        <ion-card-content>\n            At apple hospital, Walter street, Wallington,New york\n            <!-- <ion-scroll scrollX="true" style="height:60px;white-space: nowrap;">\n                <img src="assets/imgs/img-1.png">\n                <img src="assets/imgs/img-2.png">\n                <img src="assets/imgs/img-3.png">\n                <img src="assets/imgs/img-4.png">\n                <img src="assets/imgs/img-5.png">\n            </ion-scroll> -->\n        </ion-card-content>\n        <ion-row class="about-row">\n            <ion-col col-5 center text-left>\n                Experience <strong>22 Years</strong>\n            </ion-col>\n            <ion-col center text-center>\n                Fee <strong>$30</strong>\n            </ion-col>\n            <ion-col col-5 center text-right>\n                Feedback\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <span>&nbsp;&nbsp;(123)</span>\n            </ion-col>\n        </ion-row>\n    </ion-card>\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile3.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <button ion-button clear class="btn success" (click)="doctorprofile()">Chat</button>\n        </ion-item>\n        <ion-card-content>\n            At apple hospital, Walter street, Wallington,New york\n            <!-- <ion-scroll scrollX="true" style="height:60px;white-space: nowrap;">\n                <img src="assets/imgs/img-1.png">\n                <img src="assets/imgs/img-2.png">\n                <img src="assets/imgs/img-3.png">\n                <img src="assets/imgs/img-4.png">\n                <img src="assets/imgs/img-5.png">\n            </ion-scroll> -->\n        </ion-card-content>\n        <ion-row class="about-row">\n            <ion-col col-5 center text-left>\n                Experience <strong>22 Years</strong>\n            </ion-col>\n            <ion-col center text-center>\n                Fee <strong>$30</strong>\n            </ion-col>\n            <ion-col col-5 center text-right>\n                Feedback\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <span>&nbsp;&nbsp;(123)</span>\n            </ion-col>\n        </ion-row>\n    </ion-card>\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile4.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <button ion-button clear class="btn success">Chat</button>\n        </ion-item>\n        <ion-card-content>\n            At apple hospital, Walter street, Wallington,New york\n            <!-- <ion-scroll scrollX="true" style="height:60px;white-space: nowrap;">\n                <img src="assets/imgs/img-1.png">\n                <img src="assets/imgs/img-2.png">\n                <img src="assets/imgs/img-3.png">\n                <img src="assets/imgs/img-4.png">\n                <img src="assets/imgs/img-5.png">\n            </ion-scroll> -->\n        </ion-card-content>\n        <ion-row class="about-row">\n            <ion-col col-5 center text-left>\n                Experience <strong>22 Years</strong>\n            </ion-col>\n            <ion-col center text-center>\n                Fee <strong>$30</strong>\n            </ion-col>\n            <ion-col col-5 center text-right>\n                Feedback\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <span>&nbsp;&nbsp;(123)</span>\n            </ion-col>\n        </ion-row>\n    </ion-card>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/chatDoctorList/chatDoctorList.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* ModalController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */]])
     ], ChatDoctorListPage);
     return ChatDoctorListPage;
 }());
@@ -1039,14 +998,14 @@ var ChatDoctorListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 217:
+/***/ 216:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MedicalPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__medicalmap_medicalmap__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__medicalmap_medicalmap__ = __webpack_require__(217);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1078,7 +1037,7 @@ var MedicalPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-medical',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/medical/medical.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Doctors and Hospital\n            <!-- <span><small margin-right>Location</small>\n            <ion-select [(ngModel)]="location" interface="popover" class="location">\n                <ion-option value="n1">Wallington</ion-option>\n                <ion-option value="n2">Nerobi</ion-option>\n                <ion-option value="n3">Central Park</ion-option>\n              </ion-select>\n            </span> -->\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <!-- <p class="text-danger bg-white heading" padding (click)="medicalmap()">View in map\n        <ion-icon name="ios-arrow-forward"></ion-icon>\n    </p> -->\n    <ion-card>\n        <ion-item (click)="medicaldetail()">\n            <ion-avatar item-start>\n                <img src="assets/imgs/medical-1.png">\n            </ion-avatar>\n            <h2>Johnson </h2>\n            <p>251 Erena street, NY 11102, USA</p>\n            <h6 class="text-success">Open 07:00 to 22:00<button ion-button class="btn success">Call Now</button></h6>\n        </ion-item>\n    </ion-card>\n    <ion-card>\n        <ion-item (click)="medicaldetail()">\n            <ion-avatar item-start>\n                <img src="assets/imgs/medical-2.png">\n            </ion-avatar>\n            <h2>Johnson </h2>\n            <p>251 Erena street, NY 11102, USA</p>\n            <h6 class="text-success">Open 07:00 to 22:00<button ion-button class="btn success">Call Now</button></h6>\n        </ion-item>\n    </ion-card>\n    <ion-card>\n        <ion-item (click)="medicaldetail()">\n            <ion-avatar item-start>\n                <img src="assets/imgs/medical-3.png">\n            </ion-avatar>\n            <h2>Johnson </h2>\n            <p>251 Erena street, NY 11102, USA</p>\n            <h6 class="text-success">Open 07:00 to 22:00<button ion-button class="btn success">Call Now</button></h6>\n        </ion-item>\n    </ion-card>\n    <ion-card>\n        <ion-item (click)="medicaldetail()">\n            <ion-avatar item-start>\n                <img src="assets/imgs/medical-4.png">\n            </ion-avatar>\n            <h2>Johnson </h2>\n            <p>251 Erena street, NY 11102, USA</p>\n            <h6 class="text-success">Open 07:00 to 22:00<button ion-button class="btn success">Call Now</button></h6>\n        </ion-item>\n    </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/medical/medical.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* ModalController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */]])
     ], MedicalPage);
     return MedicalPage;
 }());
@@ -1087,14 +1046,14 @@ var MedicalPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 218:
+/***/ 217:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MedicalmapPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__medicaldetail_medicaldetail__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__medicaldetail_medicaldetail__ = __webpack_require__(218);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1123,7 +1082,7 @@ var MedicalmapPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-medicalmap',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/medicalmap/medicalmap.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            <ion-icon name="md-close" (click)="dismiss()"></ion-icon>&nbsp;&nbsp;&nbsp;Map View\n            <span class="location"><small>Location</small>\n            <ion-select [(ngModel)]="location" interface="popover" class="location">\n                <ion-option value="b1">Wallington</ion-option>\n                <ion-option value="b2">Nerobi</ion-option>\n                <ion-option value="b3">Central Park</ion-option>\n              </ion-select>\n            </span>\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <img src="assets/imgs/map.png" style="position: absolute;height: 100%;bottom: 0;z-index: -99;">\n\n    <div class="location-point">\n        <ion-icon name="pin" class="text-danger" style="top: 20%; left: 20%"></ion-icon>\n        <ion-icon name="pin" class="text-danger" style="top: 40%; left: 70%"></ion-icon>\n        <ion-icon name="pin" class="text-danger" style="top: 60%; left: 10%"></ion-icon>\n        <ion-icon name="pin" class="text-danger" style="top: 45%; left: 85%"></ion-icon>\n        <ion-icon name="pin" class="text-success" style="top: 50%; left: 20%"></ion-icon>\n    </div>\n\n\n\n    <div class="card-container">\n        <ion-scroll scrollX="true" style="height:110px;white-space: nowrap;">\n            <ion-card>\n                <ion-item (click)="medicaldetail()" (click)="dismiss()">\n                    <ion-avatar item-start>\n                        <img src="assets/imgs/medical-1.png">\n                    </ion-avatar>\n                    <h2>Johnson Medical Store</h2>\n                    <p>251 Erena street, NY 11102, USA</p>\n                    <h6 class="text-success">Open 07:00 to 22:00 </h6>\n                </ion-item>\n            </ion-card>\n            <ion-card>\n                <ion-item (click)="medicaldetail()" (click)="dismiss()">\n                    <ion-avatar item-start>\n                        <img src="assets/imgs/medical-1.png">\n                    </ion-avatar>\n                    <h2>Johnson Medical Store</h2>\n                    <p>251 Erena street, NY 11102, USA</p>\n                    <h6 class="text-success">Open 07:00 to 22:00 </h6>\n                </ion-item>\n            </ion-card>\n            <ion-card>\n                <ion-item (click)="medicaldetail()" (click)="dismiss()">\n                    <ion-avatar item-start>\n                        <img src="assets/imgs/medical-1.png">\n                    </ion-avatar>\n                    <h2>Johnson Medical Store</h2>\n                    <p>251 Erena street, NY 11102, USA</p>\n                    <h6 class="text-success">Open 07:00 to 22:00 </h6>\n                </ion-item>\n            </ion-card>\n        </ion-scroll>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/medicalmap/medicalmap.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ViewController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
     ], MedicalmapPage);
     return MedicalmapPage;
 }());
@@ -1132,7 +1091,7 @@ var MedicalmapPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 219:
+/***/ 218:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1158,7 +1117,7 @@ var MedicaldetailPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-medicaldetail',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/medicaldetail/medicaldetail.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Medical Shop\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <ion-list>\n        <ion-card>\n            <ion-item>\n                <ion-avatar item-start>\n                    <img src="assets/imgs/medical-1.png">\n                </ion-avatar>\n                <h2>Johnson Medical Store</h2>\n                <p>251 Erena street, NY 11102, USA</p>\n                <h6 class="text-danger">Open Now<span>08:00 to 22:00</span></h6>\n            </ion-item>\n        </ion-card>\n        <div class="bg-white overview">\n            <p class="text-danger header">Address<strong float-right class="text-success">Get Direction</strong></p>\n            <p class="header"><strong>251 Erena street, NY 11102, USA</strong></p>\n            <div class="map-location">\n                <ion-icon name="ios-pin" class="text-danger" style="top: 42%; left: 45%"></ion-icon>\n                <img src="assets/imgs/map-location.png" style="position: absolute;height: 100%;bottom: 0;z-index: 0;width: 100%;">\n            </div>\n        </div>\n        <div class="bg-white overview">\n            <p class="text-danger header">Facilities</p>\n            <ion-row>\n                <ion-col col-12>\n                    <div>\n                        <img src="assets/imgs/list-icon.png">\n                        <h3>Parking not available</h3>\n                    </div>\n                </ion-col>\n                <ion-col col-12>\n                    <div>\n                        <img src="assets/imgs/list-icon.png">\n                        <h3>E-Reports available</h3>\n                    </div>\n                </ion-col>\n                <ion-col col-12>\n                    <div>\n                        <img src="assets/imgs/list-icon.png">\n                        <h3>Card accepted</h3>\n                    </div>\n                </ion-col>\n                <ion-col col-12>\n                    <div>\n                        <img src="assets/imgs/list-icon.png">\n                        <h3>Prescriprion Pick up available</h3>\n                    </div>\n                </ion-col>\n                <ion-col col-12>\n                    <div>\n                        <img src="assets/imgs/list-icon.png">\n                        <h3>Report doorstep drop available</h3>\n                    </div>\n                </ion-col>\n            </ion-row>\n            <br>\n        </div>\n    </ion-list>\n    <br>\n    <br>\n    <br>\n    <div padding class="fixed">\n        <ion-row>\n            <ion-col col-6><button ion-button full class="btn text-danger">Message</button></ion-col>\n            <ion-col col-6><button ion-button full class="btn success">CallNow</button></ion-col>\n        </ion-row>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/medicaldetail/medicaldetail.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], MedicaldetailPage);
     return MedicaldetailPage;
 }());
@@ -1167,14 +1126,14 @@ var MedicaldetailPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 220:
+/***/ 219:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppointmentPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appointmentdetail_appointmentdetail__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appointmentdetail_appointmentdetail__ = __webpack_require__(110);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1198,7 +1157,7 @@ var AppointmentPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-appointment',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/appointment/appointment.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            My Appointment\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <p class="heading">Upcoming Appointments</p>\n    <ion-list class="doctor-list">\n        <ion-row class="bg-white" (click)="appointmentdetail()">\n            <ion-col text-center class="date">\n                <small>WED</small>\n                <strong class="text-danger">12</strong>\n                <small>12:00</small>\n            </ion-col>\n            <ion-col>\n                <ion-card>\n                    <ion-item>\n                        <ion-avatar item-start>\n                            <img src="assets/imgs/profile1.png">\n                        </ion-avatar>\n                        <h2>Dr. Josephan Williamson</h2>\n                        <p>Cardiac Surgeon</p>\n                        <ion-icon name="md-more"></ion-icon>\n                    </ion-item>\n                    <ion-card-content>\n                        At apple hospital, Walter street, Wallington\n                    </ion-card-content>\n                </ion-card>\n            </ion-col>\n        </ion-row>\n        <ion-row class="bg-white" (click)="appointmentdetail()">\n            <ion-col text-center class="date">\n                <small>WED</small>\n                <strong class="text-danger">12</strong>\n                <small>12:00</small>\n            </ion-col>\n            <ion-col>\n                <ion-card>\n                    <ion-item>\n                        <ion-avatar item-start>\n                            <img src="assets/imgs/profile1.png">\n                        </ion-avatar>\n                        <h2>Dr. Josephan Williamson</h2>\n                        <p>Cardiac Surgeon</p>\n                        <ion-icon name="md-more"></ion-icon>\n                    </ion-item>\n                    <ion-card-content>\n                        At apple hospital, Walter street, Wallington\n                    </ion-card-content>\n                </ion-card>\n            </ion-col>\n        </ion-row>\n    </ion-list>\n    <p class="heading">Past Appointments</p>\n    <ion-list class="doctor-list">\n        <ion-row class="bg-white" (click)="appointmentdetail()">\n            <ion-col text-center class="date">\n                <small>WED</small>\n                <strong class="text-danger">12</strong>\n                <small>12:00</small>\n            </ion-col>\n            <ion-col>\n                <ion-card>\n                    <ion-item>\n                        <ion-avatar item-start>\n                            <img src="assets/imgs/profile1.png">\n                        </ion-avatar>\n                        <h2>Dr. Josephan Williamson</h2>\n                        <p>Cardiac Surgeon</p>\n                        <ion-icon name="md-more"></ion-icon>\n                    </ion-item>\n                    <ion-card-content>\n                        At apple hospital, Walter street, Wallington\n                    </ion-card-content>\n                </ion-card>\n            </ion-col>\n        </ion-row>\n        <ion-row class="bg-white" (click)="appointmentdetail()">\n            <ion-col text-center class="date">\n                <small>WED</small>\n                <strong class="text-danger">12</strong>\n                <small>12:00</small>\n            </ion-col>\n            <ion-col>\n                <ion-card>\n                    <ion-item>\n                        <ion-avatar item-start>\n                            <img src="assets/imgs/profile1.png">\n                        </ion-avatar>\n                        <h2>Dr. Josephan Williamson</h2>\n                        <p>Cardiac Surgeon</p>\n                        <ion-icon name="md-more"></ion-icon>\n                    </ion-item>\n                    <ion-card-content>\n                        At apple hospital, Walter street, Wallington\n                    </ion-card-content>\n                </ion-card>\n            </ion-col>\n        </ion-row>\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/appointment/appointment.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], AppointmentPage);
     return AppointmentPage;
 }());
@@ -1207,7 +1166,7 @@ var AppointmentPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 221:
+/***/ 220:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1233,7 +1192,7 @@ var ForgotpasswordPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-forgotpassword',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/forgotpassword/forgotpassword.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Forgot Password?\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <div class="bg-white" padding text-center>\n        <br>\n        <p style="margin-bottom: 2rem"><strong class="text-danger">Don\'t worry, it will take less than 1 min.</strong></p>\n        <p>Enter your 10 digit phone number, <br>We\'ll send you intruction on sms how to<br>reset password.</p>\n        <br>\n    </div>\n    <div class="difault-form bg-light" padding>\n        <ion-list>\n            <ion-item class="bg-light">\n                <ion-input type="number" placeholder="Add your phone number"></ion-input>\n            </ion-item>\n            <br>\n            <button ion-button full class="btn danger">Submit</button>\n        </ion-list>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/forgotpassword/forgotpassword.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], ForgotpasswordPage);
     return ForgotpasswordPage;
 }());
@@ -1242,7 +1201,7 @@ var ForgotpasswordPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 222:
+/***/ 221:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1274,7 +1233,7 @@ var SpecilitiesPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-specilities',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/specilities/specilities.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Find Doctor\n            <span><small margin-right>Location</small>\n            <ion-select [(ngModel)]="location" interface="popover" class="location">\n                <ion-option value="n1">Wallington</ion-option>\n                <ion-option value="n2">Nerobi</ion-option>\n                <ion-option value="n3">Central Park</ion-option>\n              </ion-select>\n            </span>\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <ion-searchbar (ionInput)="getItems($event)" placeholder="Doctor, specialities, clinic"></ion-searchbar>\n    <div class="bg-white">\n        <p class="text-danger">Top Specialities</p>\n        <ion-list>\n            <ion-item (click)="doctroslist()">\n                Cardiologist\n                <span float-right>234</span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item>\n                Orthalmologist\n                <span float-right>234</span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item>\n                Dermatologist\n                <span float-right>234</span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item>\n                Gynecologist\n                <span float-right>234</span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item>\n                Neonatologist\n                <span float-right>234</span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n        </ion-list>\n    </div>\n    <div class="bg-white">\n        <p class="text-danger">List of Specialities</p>\n        <ion-list>\n            <ion-item>\n                Addiction Psychiatrist\n                <span float-right>234</span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item>\n                Adolescent medicine Specialities\n                <span float-right>234</span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item>\n                Allegrist (immunologist)\n                <span float-right>234</span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item>\n                Addiction Psychiatrist\n                <span float-right>234</span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item>\n                Adolescent medicine Specialities\n                <span float-right>234</span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item>\n                Allegrist (immunologist)\n                <span float-right>234</span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n        </ion-list>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/specilities/specilities.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], SpecilitiesPage);
     return SpecilitiesPage;
 }());
@@ -1283,14 +1242,14 @@ var SpecilitiesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 223:
+/***/ 222:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LabdetailsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tests_tests__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tests_tests__ = __webpack_require__(111);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1316,7 +1275,7 @@ var LabdetailsPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-labdetails',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/labdetails/labdetails.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Lab Info\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <ion-list>\n        <ion-card>\n            <ion-item>\n                <ion-avatar item-start>\n                    <img src="assets/imgs/lab-1.png">\n                </ion-avatar>\n                <h2>Enzo Clinical Labs-Astoria</h2>\n                <p>251 Erena street, NY 11102, USA</p>\n                <h6 class="text-danger">Timing<span>08:00 to 22:00</span></h6>\n            </ion-item>\n        </ion-card>\n        <ion-searchbar (ionInput)="getItems($event)" (click)="tests()" placeholder="Search for tests"></ion-searchbar>\n        <div class="bg-white overview">\n            <p class="text-danger header">Address<strong float-right class="text-success">Get Direction</strong></p>\n            <p class="header"><strong>251 Erena street, NY 11102, USA</strong></p>\n            <div class="map-location">\n                <ion-icon name="ios-pin" class="text-danger" style="top: 42%; left: 45%"></ion-icon>\n                <img src="assets/imgs/map-location.png" style="position: absolute;height: 100%;bottom: 0;z-index: 0;width: 100%;">\n            </div>\n        </div>\n        <div class="bg-white overview">\n            <p class="text-danger header">Facilities</p>\n            <ion-row>\n                <ion-col col-12>\n                    <div>\n                        <img src="assets/imgs/list-icon.png">\n                        <h3>Parking not available</h3>\n                    </div>\n                </ion-col>\n                <ion-col col-12>\n                    <div>\n                        <img src="assets/imgs/list-icon.png">\n                        <h3>E-Reports available</h3>\n                    </div>\n                </ion-col>\n                <ion-col col-12>\n                    <div>\n                        <img src="assets/imgs/list-icon.png">\n                        <h3>Card accepted</h3>\n                    </div>\n                </ion-col>\n                <ion-col col-12>\n                    <div>\n                        <img src="assets/imgs/list-icon.png">\n                        <h3>Prescriprion Pick up available</h3>\n                    </div>\n                </ion-col>\n                <ion-col col-12>\n                    <div>\n                        <img src="assets/imgs/list-icon.png">\n                        <h3>Report doorstep drop available</h3>\n                    </div>\n                </ion-col>\n            </ion-row>\n            <br>\n        </div>\n    </ion-list>\n    <br>\n    <br>\n    <br>\n    <div padding class="fixed">\n        <ion-row>\n            <ion-col col-6><button ion-button full class="btn text-danger">Message</button></ion-col>\n            <ion-col col-6><button ion-button full class="btn success">CallNow</button></ion-col>\n        </ion-row>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/labdetails/labdetails.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* ModalController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */]])
     ], LabdetailsPage);
     return LabdetailsPage;
 }());
@@ -1325,13 +1284,13 @@ var LabdetailsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 224:
+/***/ 223:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(225);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(246);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -1339,7 +1298,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 247:
+/***/ 246:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1347,51 +1306,53 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(290);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_account_account__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_chats_chats__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_appts_appts__ = __webpack_require__(299);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_tabs_tabs__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_signin_signin__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_forgotpassword_forgotpassword__ = __webpack_require__(221);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_location_location__ = __webpack_require__(300);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_finddoctor_finddoctor__ = __webpack_require__(301);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_specilities_specilities__ = __webpack_require__(222);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_doctroslist_doctroslist__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_chatDoctorList_chatDoctorList__ = __webpack_require__(216);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_map_map__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_filter_filter__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_doctorprofile_doctorprofile__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_feedback_feedback__ = __webpack_require__(302);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_appointment_appointment__ = __webpack_require__(220);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_appointmentbook_appointmentbook__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_addfeedback_addfeedback__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_chatwithdoctor_chatwithdoctor__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_lab_lab__ = __webpack_require__(303);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_labdetails_labdetails__ = __webpack_require__(223);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_tests_tests__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_medical_medical__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_medicalmap_medicalmap__ = __webpack_require__(218);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_medicaldetail_medicaldetail__ = __webpack_require__(219);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_appointmentdetail_appointmentdetail__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_chatscreen_chatscreen__ = __webpack_require__(212);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_profile_profile__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_myfeedbacks_myfeedbacks__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_blogs_blogs__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_readblog_readblog__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_aboutus_aboutus__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_terms_terms__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__pages_help_help__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__pages_settings_settings__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__ionic_native_status_bar__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__ionic_native_splash_screen__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_selectable__ = __webpack_require__(424);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_account_account__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_chats_chats__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_appts_appts__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_tabs_tabs__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_signin_signin__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_forgotpassword_forgotpassword__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_location_location__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_finddoctor_finddoctor__ = __webpack_require__(301);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_specilities_specilities__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_doctroslist_doctroslist__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_chatDoctorList_chatDoctorList__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_map_map__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_filter_filter__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_doctorprofile_doctorprofile__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_feedback_feedback__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_appointment_appointment__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_appointmentbook_appointmentbook__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_addfeedback_addfeedback__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_chatwithdoctor_chatwithdoctor__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_lab_lab__ = __webpack_require__(303);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_labdetails_labdetails__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_tests_tests__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_medical_medical__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_medicalmap_medicalmap__ = __webpack_require__(217);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_medicaldetail_medicaldetail__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__pages_appointmentdetail_appointmentdetail__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_chatscreen_chatscreen__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_profile_profile__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__pages_myfeedbacks_myfeedbacks__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_blogs_blogs__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__pages_readblog_readblog__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__pages_aboutus_aboutus__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__pages_terms_terms__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__pages_help_help__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__pages_settings_settings__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__ionic_native_status_bar__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__ionic_native_splash_screen__ = __webpack_require__(205);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -1441,93 +1402,94 @@ var AppModule = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_4__pages_account_account__["a" /* AccountPage */],
-                __WEBPACK_IMPORTED_MODULE_5__pages_chats_chats__["a" /* ChatsPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_appts_appts__["a" /* ApptsPage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_tabs_tabs__["a" /* TabsPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_signin_signin__["a" /* SigninPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_forgotpassword_forgotpassword__["a" /* ForgotpasswordPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_location_location__["a" /* LocationPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_finddoctor_finddoctor__["a" /* FinddoctorPage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_specilities_specilities__["a" /* SpecilitiesPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_doctroslist_doctroslist__["a" /* DoctroslistPage */],
-                __WEBPACK_IMPORTED_MODULE_21__pages_appointmentbook_appointmentbook__["a" /* AppointmentbookPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_map_map__["a" /* MapPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_filter_filter__["a" /* FilterPage */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_doctorprofile_doctorprofile__["a" /* DoctorprofilePage */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_feedback_feedback__["a" /* FeedbackPage */],
-                __WEBPACK_IMPORTED_MODULE_20__pages_appointment_appointment__["a" /* AppointmentPage */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_addfeedback_addfeedback__["a" /* AddfeedbackPage */],
-                __WEBPACK_IMPORTED_MODULE_23__pages_chatwithdoctor_chatwithdoctor__["a" /* ChatwithdoctorPage */],
-                __WEBPACK_IMPORTED_MODULE_24__pages_lab_lab__["a" /* LabPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_labdetails_labdetails__["a" /* LabdetailsPage */],
-                __WEBPACK_IMPORTED_MODULE_26__pages_tests_tests__["a" /* TestsPage */],
-                __WEBPACK_IMPORTED_MODULE_27__pages_medical_medical__["a" /* MedicalPage */],
-                __WEBPACK_IMPORTED_MODULE_28__pages_medicalmap_medicalmap__["a" /* MedicalmapPage */],
-                __WEBPACK_IMPORTED_MODULE_29__pages_medicaldetail_medicaldetail__["a" /* MedicaldetailPage */],
-                __WEBPACK_IMPORTED_MODULE_30__pages_appointmentdetail_appointmentdetail__["a" /* AppointmentdetailPage */],
-                __WEBPACK_IMPORTED_MODULE_31__pages_chatscreen_chatscreen__["a" /* ChatscreenPage */],
-                __WEBPACK_IMPORTED_MODULE_32__pages_profile_profile__["a" /* ProfilePage */],
-                __WEBPACK_IMPORTED_MODULE_33__pages_myfeedbacks_myfeedbacks__["a" /* MyfeedbacksPage */],
-                __WEBPACK_IMPORTED_MODULE_34__pages_blogs_blogs__["a" /* BlogsPage */],
-                __WEBPACK_IMPORTED_MODULE_35__pages_readblog_readblog__["a" /* ReadblogPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_chatDoctorList_chatDoctorList__["a" /* ChatDoctorListPage */],
-                __WEBPACK_IMPORTED_MODULE_36__pages_aboutus_aboutus__["a" /* AboutusPage */],
-                __WEBPACK_IMPORTED_MODULE_37__pages_terms_terms__["a" /* TermsPage */],
-                __WEBPACK_IMPORTED_MODULE_38__pages_help_help__["a" /* HelpPage */],
-                __WEBPACK_IMPORTED_MODULE_39__pages_settings_settings__["a" /* SettingsPage */]
+                __WEBPACK_IMPORTED_MODULE_5__pages_account_account__["a" /* AccountPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_chats_chats__["a" /* ChatsPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_appts_appts__["a" /* ApptsPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_tabs_tabs__["a" /* TabsPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_signin_signin__["a" /* SigninPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_forgotpassword_forgotpassword__["a" /* ForgotpasswordPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_location_location__["a" /* LocationPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_finddoctor_finddoctor__["a" /* FinddoctorPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_specilities_specilities__["a" /* SpecilitiesPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_doctroslist_doctroslist__["a" /* DoctroslistPage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_appointmentbook_appointmentbook__["a" /* AppointmentbookPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_map_map__["a" /* MapPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_filter_filter__["a" /* FilterPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_doctorprofile_doctorprofile__["a" /* DoctorprofilePage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_feedback_feedback__["a" /* FeedbackPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_appointment_appointment__["a" /* AppointmentPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_addfeedback_addfeedback__["a" /* AddfeedbackPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_chatwithdoctor_chatwithdoctor__["a" /* ChatwithdoctorPage */],
+                __WEBPACK_IMPORTED_MODULE_25__pages_lab_lab__["a" /* LabPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_labdetails_labdetails__["a" /* LabdetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_27__pages_tests_tests__["a" /* TestsPage */],
+                __WEBPACK_IMPORTED_MODULE_28__pages_medical_medical__["a" /* MedicalPage */],
+                __WEBPACK_IMPORTED_MODULE_29__pages_medicalmap_medicalmap__["a" /* MedicalmapPage */],
+                __WEBPACK_IMPORTED_MODULE_30__pages_medicaldetail_medicaldetail__["a" /* MedicaldetailPage */],
+                __WEBPACK_IMPORTED_MODULE_31__pages_appointmentdetail_appointmentdetail__["a" /* AppointmentdetailPage */],
+                __WEBPACK_IMPORTED_MODULE_32__pages_chatscreen_chatscreen__["a" /* ChatscreenPage */],
+                __WEBPACK_IMPORTED_MODULE_33__pages_profile_profile__["a" /* ProfilePage */],
+                __WEBPACK_IMPORTED_MODULE_34__pages_myfeedbacks_myfeedbacks__["a" /* MyfeedbacksPage */],
+                __WEBPACK_IMPORTED_MODULE_35__pages_blogs_blogs__["a" /* BlogsPage */],
+                __WEBPACK_IMPORTED_MODULE_36__pages_readblog_readblog__["a" /* ReadblogPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_chatDoctorList_chatDoctorList__["a" /* ChatDoctorListPage */],
+                __WEBPACK_IMPORTED_MODULE_37__pages_aboutus_aboutus__["a" /* AboutusPage */],
+                __WEBPACK_IMPORTED_MODULE_38__pages_terms_terms__["a" /* TermsPage */],
+                __WEBPACK_IMPORTED_MODULE_39__pages_help_help__["a" /* HelpPage */],
+                __WEBPACK_IMPORTED_MODULE_40__pages_settings_settings__["a" /* SettingsPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
+                __WEBPACK_IMPORTED_MODULE_4_ionic_selectable__["a" /* IonicSelectableModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: []
                 })
             ],
-            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicApp */]],
             entryComponents: [
                 __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_4__pages_account_account__["a" /* AccountPage */],
-                __WEBPACK_IMPORTED_MODULE_5__pages_chats_chats__["a" /* ChatsPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_appts_appts__["a" /* ApptsPage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_tabs_tabs__["a" /* TabsPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_signin_signin__["a" /* SigninPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_forgotpassword_forgotpassword__["a" /* ForgotpasswordPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_location_location__["a" /* LocationPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_finddoctor_finddoctor__["a" /* FinddoctorPage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_specilities_specilities__["a" /* SpecilitiesPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_doctroslist_doctroslist__["a" /* DoctroslistPage */],
-                __WEBPACK_IMPORTED_MODULE_21__pages_appointmentbook_appointmentbook__["a" /* AppointmentbookPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_chatDoctorList_chatDoctorList__["a" /* ChatDoctorListPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_map_map__["a" /* MapPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_filter_filter__["a" /* FilterPage */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_doctorprofile_doctorprofile__["a" /* DoctorprofilePage */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_feedback_feedback__["a" /* FeedbackPage */],
-                __WEBPACK_IMPORTED_MODULE_20__pages_appointment_appointment__["a" /* AppointmentPage */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_addfeedback_addfeedback__["a" /* AddfeedbackPage */],
-                __WEBPACK_IMPORTED_MODULE_23__pages_chatwithdoctor_chatwithdoctor__["a" /* ChatwithdoctorPage */],
-                __WEBPACK_IMPORTED_MODULE_24__pages_lab_lab__["a" /* LabPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_labdetails_labdetails__["a" /* LabdetailsPage */],
-                __WEBPACK_IMPORTED_MODULE_26__pages_tests_tests__["a" /* TestsPage */],
-                __WEBPACK_IMPORTED_MODULE_27__pages_medical_medical__["a" /* MedicalPage */],
-                __WEBPACK_IMPORTED_MODULE_28__pages_medicalmap_medicalmap__["a" /* MedicalmapPage */],
-                __WEBPACK_IMPORTED_MODULE_29__pages_medicaldetail_medicaldetail__["a" /* MedicaldetailPage */],
-                __WEBPACK_IMPORTED_MODULE_30__pages_appointmentdetail_appointmentdetail__["a" /* AppointmentdetailPage */],
-                __WEBPACK_IMPORTED_MODULE_31__pages_chatscreen_chatscreen__["a" /* ChatscreenPage */],
-                __WEBPACK_IMPORTED_MODULE_32__pages_profile_profile__["a" /* ProfilePage */],
-                __WEBPACK_IMPORTED_MODULE_33__pages_myfeedbacks_myfeedbacks__["a" /* MyfeedbacksPage */],
-                __WEBPACK_IMPORTED_MODULE_34__pages_blogs_blogs__["a" /* BlogsPage */],
-                __WEBPACK_IMPORTED_MODULE_35__pages_readblog_readblog__["a" /* ReadblogPage */],
-                __WEBPACK_IMPORTED_MODULE_36__pages_aboutus_aboutus__["a" /* AboutusPage */],
-                __WEBPACK_IMPORTED_MODULE_37__pages_terms_terms__["a" /* TermsPage */],
-                __WEBPACK_IMPORTED_MODULE_38__pages_help_help__["a" /* HelpPage */],
-                __WEBPACK_IMPORTED_MODULE_39__pages_settings_settings__["a" /* SettingsPage */]
+                __WEBPACK_IMPORTED_MODULE_5__pages_account_account__["a" /* AccountPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_chats_chats__["a" /* ChatsPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_appts_appts__["a" /* ApptsPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_tabs_tabs__["a" /* TabsPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_signin_signin__["a" /* SigninPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_forgotpassword_forgotpassword__["a" /* ForgotpasswordPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_location_location__["a" /* LocationPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_finddoctor_finddoctor__["a" /* FinddoctorPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_specilities_specilities__["a" /* SpecilitiesPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_doctroslist_doctroslist__["a" /* DoctroslistPage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_appointmentbook_appointmentbook__["a" /* AppointmentbookPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_chatDoctorList_chatDoctorList__["a" /* ChatDoctorListPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_map_map__["a" /* MapPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_filter_filter__["a" /* FilterPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_doctorprofile_doctorprofile__["a" /* DoctorprofilePage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_feedback_feedback__["a" /* FeedbackPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_appointment_appointment__["a" /* AppointmentPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_addfeedback_addfeedback__["a" /* AddfeedbackPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_chatwithdoctor_chatwithdoctor__["a" /* ChatwithdoctorPage */],
+                __WEBPACK_IMPORTED_MODULE_25__pages_lab_lab__["a" /* LabPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_labdetails_labdetails__["a" /* LabdetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_27__pages_tests_tests__["a" /* TestsPage */],
+                __WEBPACK_IMPORTED_MODULE_28__pages_medical_medical__["a" /* MedicalPage */],
+                __WEBPACK_IMPORTED_MODULE_29__pages_medicalmap_medicalmap__["a" /* MedicalmapPage */],
+                __WEBPACK_IMPORTED_MODULE_30__pages_medicaldetail_medicaldetail__["a" /* MedicaldetailPage */],
+                __WEBPACK_IMPORTED_MODULE_31__pages_appointmentdetail_appointmentdetail__["a" /* AppointmentdetailPage */],
+                __WEBPACK_IMPORTED_MODULE_32__pages_chatscreen_chatscreen__["a" /* ChatscreenPage */],
+                __WEBPACK_IMPORTED_MODULE_33__pages_profile_profile__["a" /* ProfilePage */],
+                __WEBPACK_IMPORTED_MODULE_34__pages_myfeedbacks_myfeedbacks__["a" /* MyfeedbacksPage */],
+                __WEBPACK_IMPORTED_MODULE_35__pages_blogs_blogs__["a" /* BlogsPage */],
+                __WEBPACK_IMPORTED_MODULE_36__pages_readblog_readblog__["a" /* ReadblogPage */],
+                __WEBPACK_IMPORTED_MODULE_37__pages_aboutus_aboutus__["a" /* AboutusPage */],
+                __WEBPACK_IMPORTED_MODULE_38__pages_terms_terms__["a" /* TermsPage */],
+                __WEBPACK_IMPORTED_MODULE_39__pages_help_help__["a" /* HelpPage */],
+                __WEBPACK_IMPORTED_MODULE_40__pages_settings_settings__["a" /* SettingsPage */]
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_40__ionic_native_status_bar__["a" /* StatusBar */],
-                __WEBPACK_IMPORTED_MODULE_41__ionic_native_splash_screen__["a" /* SplashScreen */],
-                { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
+                __WEBPACK_IMPORTED_MODULE_41__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_42__ionic_native_splash_screen__["a" /* SplashScreen */],
+                { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicErrorHandler */] }
             ]
         })
     ], AppModule);
@@ -1538,16 +1500,16 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 290:
+/***/ 289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_signin_signin__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_signin_signin__ = __webpack_require__(206);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1606,12 +1568,52 @@ var MyApp = /** @class */ (function () {
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/workspace/doctor-appointment/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"/workspace/doctor-appointment/src/app/app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
 }());
 
 //# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 298:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChatsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__chatscreen_chatscreen__ = __webpack_require__(109);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ChatsPage = /** @class */ (function () {
+    function ChatsPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    ChatsPage.prototype.chatscreen = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__chatscreen_chatscreen__["a" /* ChatscreenPage */]);
+    };
+    ChatsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-chats',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/chats/chats.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Chats\n            <ion-icon name="md-add" float-right></ion-icon>\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <ion-card (click)="chatscreen()">\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <span>2 min ago</span>\n        </ion-item>\n        <ion-card-content>\n            <ion-row class="appot-detail">\n                <ion-col class="icon">\n                    <ion-icon name="md-chatbubbles" class="text-danger"></ion-icon>\n                </ion-col>\n                <ion-col class="detail">\n                    Yes sure,Can you click a picture and send me?\n                </ion-col>\n                <ion-col class="option">\n                    <ion-icon name="ios-arrow-forward"></ion-icon>\n                </ion-col>\n            </ion-row>\n        </ion-card-content>\n    </ion-card>\n    <ion-card (click)="chatscreen()">\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <span>2 min ago</span>\n        </ion-item>\n        <ion-card-content>\n            <ion-row class="appot-detail">\n                <ion-col class="icon">\n                    <ion-icon name="md-chatbubbles" class="text-danger"></ion-icon>\n                </ion-col>\n                <ion-col class="detail">\n                    Yes sure,Can you click a picture and send me?\n                </ion-col>\n                <ion-col class="option">\n                    <ion-icon name="ios-arrow-forward"></ion-icon>\n                </ion-col>\n            </ion-row>\n        </ion-card-content>\n    </ion-card>\n    <ion-card (click)="chatscreen()">\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <span>2 min ago</span>\n        </ion-item>\n        <ion-card-content>\n            <ion-row class="appot-detail">\n                <ion-col class="icon">\n                    <ion-icon name="md-chatbubbles" class="text-danger"></ion-icon>\n                </ion-col>\n                <ion-col class="detail">\n                    Yes sure,Can you click a picture and send me?\n                </ion-col>\n                <ion-col class="option">\n                    <ion-icon name="ios-arrow-forward"></ion-icon>\n                </ion-col>\n            </ion-row>\n        </ion-card-content>\n    </ion-card>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/chats/chats.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
+    ], ChatsPage);
+    return ChatsPage;
+}());
+
+//# sourceMappingURL=chats.js.map
 
 /***/ }),
 
@@ -1622,7 +1624,7 @@ var MyApp = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ApptsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appointmentdetail_appointmentdetail__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__appointmentdetail_appointmentdetail__ = __webpack_require__(110);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1646,7 +1648,7 @@ var ApptsPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-appts',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/appts/appts.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            My Appointments\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <ion-list>\n        <ion-item (click)="appointmentdetail()">\n            <h2>Dr.Joseph Williamson</h2>\n            <small>Complete your profile</small>\n        </ion-item>\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/appts/appts.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], ApptsPage);
     return ApptsPage;
 }());
@@ -1686,7 +1688,7 @@ var LocationPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-location',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/location/location.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            <ion-icon name="md-search" padding-left padding-right></ion-icon>\n            Search Location\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <ion-item (click)="tabs()">\n        Select current location\n        <ion-icon name="md-locate" item-end></ion-icon>\n    </ion-item>\n    <div class="my-map">\n        <img src="assets/imgs/map.png" style="position: absolute;height: calc(100% - 50px);bottom: 0;">\n    </div>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/location/location.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], LocationPage);
     return LocationPage;
 }());
@@ -1702,7 +1704,7 @@ var LocationPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FinddoctorPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__specilities_specilities__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__specilities_specilities__ = __webpack_require__(221);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1727,7 +1729,7 @@ var FinddoctorPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-finddoctor',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/finddoctor/finddoctor.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Find Doctor\n            <span><small  margin-right>Location</small>\n            <ion-select [(ngModel)]="location" interface="popover" class="location">\n                <ion-option value="n1">Wallington</ion-option>\n                <ion-option value="n2">Nerobi</ion-option>\n                <ion-option value="n3">Central Park</ion-option>\n              </ion-select>\n            </span>\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <ion-searchbar (ionInput)="getItems($event)" placeholder="Doctor, specialities, clinic"></ion-searchbar>\n\n    <!-- <div class="recent-search bg-white">\n        <p class="text-danger">Recent Search<span float-right class="text-success">Clear History</span></p>\n        <ion-list>\n            <ion-item>\n                <img src="assets/imgs/recent.png" item-start>\n                <span>\n                    Cardiologist\n                </span>\n            </ion-item>\n            <ion-item>\n                <img src="assets/imgs/recent.png" item-start>\n                <span>\n                    Cardiovascular surgeon\n                </span>\n\n\n            </ion-item>\n            <ion-item>\n                <img src="assets/imgs/recent.png" item-start>\n                <span>\n                    Appolo hospital\n                </span>\n            </ion-item>\n        </ion-list>\n    </div> -->\n\n    <div class="quick-link bg-white">\n        <p class="text-danger">Quick Links</p>\n        <ion-list>\n            <ion-item (click)="specilities()">\n                <img src="assets/imgs/ic_doctors.png" item-start>\n                <span>\n                    Doctor\n                    <small>Allergist, Cardiologists, Dermatologiest</small>\n                </span>\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item>\n                <img src="assets/imgs/ic_dentist.png" item-start>\n                <span>\n                    Dentist\n                    <small>Dentists, Prosthodonitions etc.</small>\n                </span>\n\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item>\n                <img src="assets/imgs/ic_ayurvedic.png" item-start>\n                <span>\n                    Dentist\n                    <small>Ayurveda experties, Homeoprthi, etc </small>\n                </span>\n\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n            <ion-item>\n                <img src="assets/imgs/ic_therapist.png" item-start>\n                <span>\n                    Therapst & Nutritionists\n                    <small>Acupunturist, Physiotherapist, etc</small>\n                </span>\n\n                <ion-icon name="ios-arrow-forward" item-end></ion-icon>\n            </ion-item>\n        </ion-list>\n    </div>\n\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/finddoctor/finddoctor.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], FinddoctorPage);
     return FinddoctorPage;
 }());
@@ -1762,7 +1764,7 @@ var FeedbackPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-feedback',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/feedback/feedback.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Doctor Profile Feedback\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <button ion-button clear class="btn success">Book</button>\n        </ion-item>\n        <ion-card-content>\n            At apple hospital, Walter street, Wallington\n            <div class="img-container">\n                <div class="imges-row">\n                    <img src="assets/imgs/img-1.png">\n                    <img src="assets/imgs/img-2.png">\n                    <img src="assets/imgs/img-3.png">\n                    <img src="assets/imgs/img-4.png">\n                    <img src="assets/imgs/img-5.png">\n                </div>\n            </div>\n        </ion-card-content>\n        <ion-row class="about-row">\n            <ion-col col-5 center text-left>\n                Experience <strong>22 Years</strong>\n            </ion-col>\n            <ion-col center text-center>\n                Fee <strong>$30</strong>\n            </ion-col>\n            <ion-col col-5 center text-right>\n                Feedback\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star" class="active"></ion-icon>\n                <ion-icon name="md-star"></ion-icon>\n                <span>&nbsp;&nbsp;(123)</span>\n            </ion-col>\n        </ion-row>\n    </ion-card>\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/feedback/feedback.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], FeedbackPage);
     return FeedbackPage;
 }());
@@ -1778,8 +1780,8 @@ var FeedbackPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LabPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__labdetails_labdetails__ = __webpack_require__(223);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tests_tests__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__labdetails_labdetails__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tests_tests__ = __webpack_require__(111);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1810,7 +1812,7 @@ var LabPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-lab',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/lab/lab.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Lab & Test\n            <span><small margin-right>Location</small>\n            <ion-select [(ngModel)]="location" interface="popover" class="location">\n                <ion-option value="n1">Wallington</ion-option>\n                <ion-option value="n2">Nerobi</ion-option>\n                <ion-option value="n3">Central Park</ion-option>\n              </ion-select>\n            </span>\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="bg-light">\n    <ion-searchbar (ionInput)="getItems($event)" (click)="tests()" placeholder="Search for tests"></ion-searchbar>\n\n    <ion-card>\n        <ion-item (click)="labdetails()">\n            <ion-avatar item-start>\n                <img src="assets/imgs/lab-1.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <h6 class="text-success">250+ Test Available<button ion-button class="btn success">Call Now</button></h6>\n        </ion-item>\n    </ion-card>\n    <ion-card>\n        <ion-item (click)="labdetails()">\n            <ion-avatar item-start>\n                <img src="assets/imgs/lab-2.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <h6 class="text-success">250+ Test Available<button ion-button class="btn success">Call Now</button></h6>\n        </ion-item>\n    </ion-card>\n    <ion-card>\n        <ion-item (click)="labdetails()">\n            <ion-avatar item-start>\n                <img src="assets/imgs/lab-3.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <h6 class="text-success">250+ Test Available<button ion-button class="btn success">Call Now</button></h6>\n        </ion-item>\n    </ion-card>\n    <ion-card>\n        <ion-item (click)="labdetails()">\n            <ion-avatar item-start>\n                <img src="assets/imgs/lab-4.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n            <h6 class="text-success">250+ Test Available<button ion-button class="btn success">Call Now</button></h6>\n        </ion-item>\n    </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/lab/lab.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* ModalController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */]])
     ], LabPage);
     return LabPage;
 }());
@@ -1826,7 +1828,7 @@ var LabPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppointmentbookPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__chatwithdoctor_chatwithdoctor__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__chatwithdoctor_chatwithdoctor__ = __webpack_require__(213);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1842,22 +1844,37 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var AppointmentbookPage = /** @class */ (function () {
     function AppointmentbookPage(navCtrl) {
         this.navCtrl = navCtrl;
+        this.ports = [
+            { id: 0, name: 'Add new' },
+            { id: 1, name: 'Nausea and Vomiting' },
+            { id: 2, name: 'Fever' },
+            { id: 3, name: 'Abdominal or stomach pain' },
+            { id: 4, name: 'Dizziness' },
+            { id: 5, name: 'Cough' },
+            { id: 6, name: 'Headache' },
+            { id: 7, name: 'Sore throat' },
+            { id: 8, name: 'Back pain' }
+        ];
     }
     AppointmentbookPage.prototype.chatwithdoctor = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__chatwithdoctor_chatwithdoctor__["a" /* ChatwithdoctorPage */]);
     };
+    AppointmentbookPage.prototype.portChange = function (event) {
+        console.log('port:', event.value);
+    };
     AppointmentbookPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-appointmentbook',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/appointmentbook/appointmentbook.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>\n            Select Date & Time\n        </ion-title>\n    </ion-navbar>\n    <!-- <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n        </ion-item>\n    </ion-card> -->\n</ion-header>\n\n<ion-content class="bg-light">\n    <div class="calender-container">\n        <div class="calander">\n            <div class="calander-row">\n                <div class="day active"><span>MON</span>12</div>\n                <div class="day"><span>TUE</span>13</div>\n                <div class="day"><span>WED</span>14</div>\n                <div class="day"><span>THU</span>15</div>\n                <div class="day"><span>FRI</span>16</div>\n                <div class="day"><span>SAT</span>17</div>\n                <div class="day"><span>SUN</span>18</div>\n            </div>\n        </div>\n    </div>\n    <div class="icon-calander">\n        <ion-icon name="md-calendar" class="text-success"></ion-icon>\n    </div>\n    <div padding>\n        <p>Available Times</p>\n        <div class="timeing">\n            <ion-row>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n            </ion-row>\n        </div>\n        <p>Appointment for...</p>\n        <div class="difault-form">\n            <ion-item class="bg-light">\n                <ion-input type="text" placeholder="Full Name"></ion-input>\n            </ion-item>\n            <ion-item class="bg-light">\n                <ion-input type="text" placeholder="Address"></ion-input>\n            </ion-item>\n            <ion-item class="bg-light">\n                <ion-input type="text" placeholder="Phone Number"></ion-input>\n            </ion-item>\n            <ion-item>\n                <ion-label>Illness</ion-label>\n                <ion-select [(ngModel)]="toppings" multiple="true" cancelText="Cancel" okText="Save">\n                    <ion-option value="bacon" selected="true">Bacon</ion-option>\n                    <ion-option value="olives">Black Olives</ion-option>\n                    <ion-option value="xcheese" selected="true">Extra Cheese</ion-option>\n                    <ion-option value="peppers">Green Peppers</ion-option>\n                    <ion-option value="mushrooms">Mushrooms</ion-option>\n                    <ion-option value="onions">Onions</ion-option>\n                    <ion-option value="pepperoni">Pepperoni</ion-option>\n                    <ion-option value="pineapple">Pineapple</ion-option>\n                    <ion-option value="sausage">Sausage</ion-option>\n                    <ion-option value="Spinach">Spinach</ion-option>\n                </ion-select>\n            </ion-item>\n            <ion-item class="bg-light">\n                <ion-input type="text" placeholder="Message to Doctor"></ion-input>\n            </ion-item>\n             <ion-item>\n            <button ion-button full class="btn success fixed">Confirm Appointment</button>\n             </ion-item>\n        </div>\n    </div>\n</ion-content>'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/appointmentbook/appointmentbook.html"*/
+            selector: 'page-appointmentbook',template:/*ion-inline-start:"/workspace/doctor-appointment/src/pages/appointmentbook/appointmentbook.html"*/'<ion-header>\n	<ion-navbar>\n		<ion-title>\n			Select Date & Time\n		</ion-title>\n	</ion-navbar>\n	<!-- <ion-card>\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/profile1.png">\n            </ion-avatar>\n            <h2>Dr. Josephan Williamson</h2>\n            <p>Cardiac Surgeon</p>\n        </ion-item>\n    </ion-card> -->\n</ion-header>\n\n<ion-content class="bg-light">\n	<div class="calender-container">\n		<div class="calander">\n			<div class="calander-row">\n				<div class="day active"><span>MON</span>12</div>\n                <div class="day"><span>TUE</span>13</div>\n                <div class="day"><span>WED</span>14</div>\n                <div class="day"><span>THU</span>15</div>\n                <div class="day"><span>FRI</span>16</div>\n                <div class="day"><span>SAT</span>17</div>\n                <div class="day"><span>SUN</span>18</div>\n            </div>\n        </div>\n    </div>\n    <div class="icon-calander">\n        <ion-icon name="md-calendar" class="text-success"></ion-icon>\n    </div>\n    <div padding>\n        <p>Available Times</p>\n        <div class="timeing">\n            <ion-row>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n                <ion-col col-3><span>01:30 PM</span></ion-col>\n            </ion-row>\n        </div>\n        <p>Appointment for...</p>\n        <div class="difault-form">\n            <ion-item class="bg-light">\n                <ion-input type="text" placeholder="Full Name"></ion-input>\n            </ion-item>\n            <ion-item class="bg-light">\n                <ion-input type="text" placeholder="Address"></ion-input>\n            </ion-item>\n            <ion-item class="bg-light">\n                <ion-input type="text" placeholder="Phone Number"></ion-input>\n            </ion-item>\n            <ion-item>\n                <ion-label>Reason for Request</ion-label>\n                <ionic-selectable\n                    item-content\n                    [(ngModel)]="port"\n                    [items]="ports"\n                    itemValueField="id"\n                    itemTextField="name"\n                    [canSearch]="true"\n                    (onChange)="portChange($event)">\n                </ionic-selectable>\n            </ion-item>\n            <!-- <ion-item>\n                <ion-label>Illness</ion-label>\n                <ion-select [(ngModel)]="toppings" multiple="true" cancelText="Cancel" okText="Save">\n                    <ion-option value="bacon" selected="true">Bacon</ion-option>\n                    <ion-option value="olives">Black Olives</ion-option>\n                    <ion-option value="xcheese" selected="true">Extra Cheese</ion-option>\n                    <ion-option value="peppers">Green Peppers</ion-option>\n                    <ion-option value="mushrooms">Mushrooms</ion-option>\n                    <ion-option value="onions">Onions</ion-option>\n                    <ion-option value="pepperoni">Pepperoni</ion-option>\n                    <ion-option value="pineapple">Pineapple</ion-option>\n                    <ion-option value="sausage">Sausage</ion-option>\n                    <ion-option value="Spinach">Spinach</ion-option>\n                </ion-select>\n            </ion-item> -->\n            <ion-item class="bg-light">\n                <ion-input type="text" placeholder="Message to Doctor"></ion-input>\n            </ion-item>\n             <ion-item>\n            <button ion-button full class="btn success">Confirm Appointment</button>\n             </ion-item>\n        </div>\n    </div>\n</ion-content>'/*ion-inline-end:"/workspace/doctor-appointment/src/pages/appointmentbook/appointmentbook.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object])
     ], AppointmentbookPage);
     return AppointmentbookPage;
+    var _a;
 }());
 
 //# sourceMappingURL=appointmentbook.js.map
 
 /***/ })
 
-},[224]);
+},[223]);
 //# sourceMappingURL=main.js.map
